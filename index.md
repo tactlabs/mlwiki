@@ -4,5 +4,6 @@ ML Wiki
 
 ## ML Basics :
 
-  * [Specificity](specificity.md.md)
+  * [Specificity](specificity.md)
+
 
