@@ -4,13 +4,13 @@ ML Wiki
 
 ## ML Basics :
 
+  * [Accuracy](accuracy.md)
+  * [Precision](precision.md)
   * [Confusion Matrix ](confusion_matrix.md)
-  * [Sensitivity](sensitivity.md)
+  * [Sensitivity or Recall](sensitivity.md)
   * [Specificity](specificity.md)
-  * []()
-  * []()
-  * []()
-  * []()
+  * [F1 Score](f1_score.md)
+  * [AUC-ROC Curve](auc_roc.md)
   * []()
   * []()
   * []()
