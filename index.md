@@ -4,6 +4,8 @@ ML Wiki
 
 ## ML Basics :
 
+  * [Classification](classification.md)
+  * [Regression](regression.md)
   * [TP, TN, FP, FN](possible_outcomes_clf.md)
   * [Accuracy](accuracy.md)
   * [Precision](precision.md)
@@ -55,13 +57,11 @@ ML Wiki
   * [Data Integration](data_integration.md)
   * [Data Mining](data_mining.md)
   * [Decision Tree](decision_tree.md)
-  * []()
-  * []()
-  * []()
-  * []()
-  * []()
-  * []()
-  * []()
+  * [tf-idf](tf-idf.md)
+  * [PySpark](pyspark.md)
+  * [Overfitting](overfitting.md)
+  * [Underfitting](underfitting.md)
+  * [Bias]()
   * []()
   * []()
   * []()
