@@ -1,6 +1,6 @@
 / [Home](index.md)
 
-#Weights and Biases
+# Weights and Biases
 
 
 They are used to log all the metrics, errors, compare experiments with few lines of code.

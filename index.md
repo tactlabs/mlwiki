@@ -104,7 +104,7 @@ ML Wiki
 - [Boosting](boosting.md)
 - [Weights and Biases](weights-and-biases.md)
 - [Databricks](databricks.md)
-- [Z-Score](Z-Score.md)
+- [Z-Score](Z-score.md)
 - [Quantile](quantile.md)
 - [Pipelines](pipelines.md)
 - []()
