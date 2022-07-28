@@ -16,3 +16,5 @@ In the F1 score, we compute the average of precision and recall, it means that t
 * A model will obtain a medium F1 score if one of Precision and Recall is low and the other is high.
 
  F1 scores can range from 0 to 1, with 1 representing a model that perfectly classifies each observation into the correct class and 0 representing a model that is unable to classify any observation into the correct class.
+
+ 
