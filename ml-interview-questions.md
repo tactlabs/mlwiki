@@ -312,3 +312,443 @@ Use Partial Least Squares Regression (PLS) or Principal Components Analysis
 
      - Cross-validation is a technique which is used to increase the performance of a machine learning algorithm, where the machine is fed sampled data out of the same data for a few times. The sampling is done so that the dataset is broken into small parts of the equal number of rows, and a random part is chosen as the test set, while all other parts are chosen as train sets.
 
+
+55) How would you handle missing or corrupted data in a dataset?
+
+    - Dropping the rows or columns with the missing or corrupted dataset or replacing them entirely with a different value are two easy ways to handle such a situation. Methods like IsNull(), dropna(), and Fillna() help in accomplishing this task.
+
+56)  State the applications of supervised machine learning in modern businesses?
+
+     - Sentiment Analysis, Email Spam Detection, Fraud Detection, and Healthcare Diagnosis are some applications of Supervised Machine Learning. 
+
+57) Explain the ensemble learning technique in machine learning?
+
+    - Ensemble learning involves meta-algorithms combining various ML techniques into a single predictive model. The aim of doing that is stacking, bagging, or boosting. That is, to improve predictions, decrease variance, or decrease bias.
+
+58) Differentiate between bagging and boosting?
+
+    - Bagging is a way to merge the same type of predictions, whereas boosting refers to a method of merging different types of predictions. Bagging decreases variance, and boosting decreases bias, not vice versa.
+
+59) How is KNN different from K-means clustering?
+
+    - means is an unsupervised learning algorithm, whereas KNN is a supervised learning algorithm. K-means is mainly used for clustering problems, and the KNN algorithm is primarily used for classification and regression problems.
+
+60) Which algorithms are most widely used in machine learning?
+
+    - Linear regression, Decision tree, Logistic regression, KNN algorithm, K-means, SVM algorithm, Naive Bayes algorithm, and Random forest algorithm are some of the most widely used algorithms in Machine Learning.
+
+61) How would you explain Machine Learning to a school-going kid?
+
+    - Machine learning is an application of Artificial Intelligence where we give machines access to data and let them use that data to learn for themselves. Then, you can input new conditions and it will predict the outcome.It's basically getting a computer to perform a task without explicitly being programmed to do so.
+
+62) How does Deep Learning differ from Machine Learning?
+
+    - ML refers to an AI system that can self-learn based on the algorithm. Systems that get smarter and smarter over time without the human intervention is ML. Deep Learning is a machine learning applied to large data sets. Most AI work involves ML because intelligent behaviour requires considerable knowledge.
+
+63) Explain Classification and Regression?
+
+    - Classification is a process of categorizing a given set of data into classes, It can be performed on both structured or unstructured data. Regression in machine learning consists of mathematical methods that allow data scientists to predict a continuous outcome (y) based on the value of one or more predictor variables (x). Linear regression is probably the most popular form of regression analysis because of its ease-of-use in predicting and forecasting.
+
+64) What do you understand by selection bias?
+
+    - Selection bias is a kind of error that occurs when the researcher decides who is going to be studied. It is usually associated with the research where the selection of participants isn't random.
+
+65) What do you understand by Precision and Recall?
+
+    - Recall is the number of relevant documents retrieved by a search divided by the total number of the existing relevant documents, while precision is the number of relevant documents retrieved by a search divided by the total number of documents retrieved by that search.
+
+66) What is a Confusion Matrix?
+
+    - The confusion is a 26 by 26 matrix with the probability of each reaction to each stimulus. This explains the name and matches the use in machine learning today.
+
+67) What is the difference between inductive and deductive learning?
+
+    - The main difference between inductive and deductive reasoning is that inductive reasoning aims at developing a theory while deductive reasoning aims at testing an existing theory. Inductive reasoning moves from the specific observations to broad generalizations, and deductive reasoning the other way around.
+
+68) How is KNN different from K-means clustering?
+
+    - K-means is an unsupervised learning algorithm used for the clustering problem whereas KNN is a supervised learning algorithm used for classification and regression problem. This is the basic difference between K-means and KNN algorithm. It makes predictions by learning from the past available data.
+
+69) What is ROC curve and what does it represent?
+
+    - An ROC curve is a graph showing the performance of a classification model at all the classification thresholds. This curve plots two parameters: True Positive Rate. False Positive Rate.
+
+70) What’s the difference between Type I and Type II error?
+
+    - Type 1 error, in statistical hypothesis testing, is the error caused by rejecting a null hypothesis when it is true. Type II error is the error that occurs when the null hypothesis is accepted when it is not true. Type I error is equivalent to a false positive. Type II error is equivalent to a false negative.
+
+71) s it better to have too many false positives or too many false negatives? Explain.
+
+    - In medical testing, false negatives may provide a falsely reassuring message to patients and physicians that the disease is absent, when it is actually present. This sometimes leads to inappropriate or inadequate treatment of both the patient and their disease. So, it is desired to have too many false positive.
+
+72) Which is more important to you – model accuracy or model performance?
+
+    - The accuracy extremely critical, even if the models would take minutes or hours to make a prediction. Other applications require the real time performance, even if this comes at a cost of accuracy.
+
+73)  What is the difference between Entropy and Information Gain?
+
+     - The information gain is the amount of information gained about a random variable or signal from observing another random variable. Entropy is that the average rate at which information is produced by a stochastic source of data, Or, it is a measure of the uncertainty associated with a random variable.
+
+74) Explain Ensemble learning technique in Machine Learning?
+
+    - Ensemble methods are meta-algorithms that combine several machine learning techniques into the one predictive model in order to decrease variance (bagging), bias (boosting), or improve predictions (stacking).
+
+75)  What are collinearity and multicollinearity?
+
+     - Collinearity is a linear association between the two predictors. Multicollinearity is a situation where two or more predictors are highly linearly related. In general, an absolute correlation coefficient of >0.7 among two or more predictors indicates the presence of multicollinearity.
+
+76) How will you explain the Fourier Transformation in Machine Learning?
+
+    - A Fourier Transformation is the generic method that helps in decomposing functions into a series of symmetric functions. It helps you in finding the set of cycle speeds, phases, and amplitude to match the particular time signal. It has the capability to convert the signal into frequency domain like sensor data or more.
+
+77) How will you differentiate the generic model from the discriminative model?
+
+    - A generic model will explain the multiple categories of data while the discriminative model simply tells the difference between data categories. They are used in classification tasks and need to understand deeply before you actually implement them.
+
+78) List different types of cloud services?
+
+    - Various types of cloud services are:
+
+        * Software as a Service (SaaS)
+        * Data as a Service (DaaS)
+        * Platform as a Service (PaaS)
+        * Infrastructure as a Service (IaaS).
+
+79) Explain the term Q-Learning?
+
+    -  Q-learning is a popular reinforcement learning algorithm. In this, the agent tries to learn the optimal policies that can provide the best actions to maximize the environment’s rewards. The agent learns these optimal policies from past experiences.
+
+80) What is Rectified Linear Unit (ReLU) in Machine learning?
+
+    - An activation function with the following rules:
+
+        If input is negative or zero, output is 0.
+
+        If input is positive, output is equal to input.
+
+81) What is AdaGrad algorithm?
+
+    - A sophisticated gradient descent algorithm that rescales the gradients of each parameter, effectively giving each parameter an independent learning rate.
+
+82)  What is backpropagation?
+
+        - The primary algorithm for performing gradient descent on neural networks. First, the output values of each node are calculated (and cached) in a forward pass. Then, the partial derivative of the error with respect to each parameter is calculated in a backward pass through the graph.
+
+            The Area Under the ROC curve is the probability that a classifier will be more confident that a randomly chosen positive example is actually positive than that a randomly chosen negative example is positive.
+
+83) What do you understand about Variance Error in machine learning algorithms?
+
+    - Variance error is common in machine learning when the algorithm is highly complex and difficult to understand as well. It may lead to a high degree of variation to your training data that can lead the model to overfit the data. Also, there could be so much noise for the training data that is not necessary in case of the test data.
+
+84)  How will you differentiate the L1 and L2 regularization?
+
+     -  L2 regularization tends to spread error among multiple terms while L! is more specific to binary variables where either 0 or 1 is assigned based on requirements. L1 tends to set a Laplacian prior on terms, but L2 tends to set a Gaussian prior on terms.
+
+85) What is your favorite algorithm? Explain in less than a minute based on your past experiences.
+
+    - The answer to this question will vary based on the projects you worked on earlier. Also, which algorithm assured better outcomes as compared to others.
+
+86) What is cross-validation in Machine Learning?
+
+    - The cross-validation method in Machine Learning allows a system to enhance the performance of the given Machine Learning algorithm to which you feed various sample data from the dataset. This sampling process is done to break the dataset into smaller parts that have the same number of rows, out of which a random part is selected as a test set, and the rest of the parts are kept as train sets. Cross-validation includes the following techniques:
+
+        * Holdout method
+        * K-fold cross-validation
+        * Stratified k-fold cross-validation 
+        * Leave p-out cross-validation
+
+87)  What seems more important is either model accuracy or performance of a model?
+
+     - Well, model accuracy is just a subset of the model performance parameter. For a model who is performing excellent, there are chances of more accuracy than others.
+
+88) Differentiate Sigmoid and Softmax functions?
+
+    - The sigmoid function is used for binary classification and the probabilities sum required to be 1. Whereas, Softmax function is used for multi-classification and its probability sum will be 1.
+
+89) What is PCA? When do you use it?
+
+    - Principal component analysis (PCA) is most commonly used for dimension reduction.
+
+        In this case, PCA measures the variation in each variable (or column in the table). If there is little variation, it throws the variable out, as illustrated in the figure below:
+
+
+        Principal component analysis (PCA)
+        Thus making the dataset easier to visualize. PCA is used in finance, neuroscience, and pharmacology.
+
+        It is very useful as a preprocessing step, especially when there are linear correlations between features.
+
+90)  What are Different Kernels in SVM?
+
+     - There are six types of kernels in SVM:
+
+        * Linear kernel - used when data is linearly separable. 
+        * Polynomial kernel - When you have discrete data that has no natural notion of smoothness.
+        * Radial basis kernel - Create a decision boundary able to do a much better job of separating two classes than the linear kernel.
+        * Sigmoid kernel - used as an activation function for neural networks.
+
+91) What are Loss Function and Cost Functions? Explain the key Difference Between them?
+
+    - When calculating loss we consider only a single data point, then we use the term loss function.
+
+        Whereas, when calculating the sum of error for multiple data then we use the cost function. There is no major difference.
+
+        In other words, the loss function is to capture the difference between the actual and predicted values for a single record whereas cost functions aggregate the difference for the entire training dataset.
+
+        The Most commonly used loss functions are Mean-squared error and Hinge loss.
+
+        Mean-Squared Error(MSE): In simple words, we can say how our model predicted values against the actual values.
+
+        MSE = √(predicted value - actual value)2
+        Hinge loss: It is used to train the machine learning classifier, which is
+
+        L(y) = max(0,1- yy)
+
+        Where y = -1 or 1 indicating two classes and y represents the output form of the classifier. The most common cost function represents the total cost as the sum of the fixed costs and the variable costs in the equation y = mx + b
+
+92) What is Ensemble learning?
+
+    - Ensemble learning is a method that combines multiple machine learning models to create more powerful models.
+
+        There are many reasons for a model to be different. Few reasons are:
+
+        Different Population
+        Different Hypothesis
+        Different modeling techniques
+        When working with the model’s training and testing data, we will experience an error. This error might be bias, variance, and irreducible error.
+
+        Now the model should always have a balance between bias and variance, which we call a bias-variance trade-off.
+
+        This ensemble learning is a way to perform this trade-off.
+
+        There are many ensemble techniques available but when aggregating multiple models there are two general methods:
+
+        Bagging, a native method: take the training set and generate new training sets off of it.
+        Boosting, a more elegant method: similar to bagging, boosting is used to optimize the best weighting scheme for a training set.
+
+93) How do you make sure which Machine Learning Algorithm to use?
+
+    - It completely depends on the dataset we have. If the data is discrete we use SVM. If the dataset is continuous we use linear regression.
+
+        So there is no specific way that lets us know which ML algorithm to use, it all depends on the exploratory data analysis (EDA).
+
+        EDA is like “interviewing” the dataset; As part of our interview we do the following:
+
+        Classify our variables as continuous, categorical, and so forth. 
+        Summarize our variables using descriptive statistics. 
+        Visualize our variables using charts.
+        Based on the above observations select one best-fit algorithm for a particular dataset.
+
+94) How to Handle Outlier Values?
+
+    - An Outlier is an observation in the dataset that is far away from other observations in the dataset. Tools used to discover outliers are
+
+        Box plot
+        Z-score
+        Scatter plot, etc.
+        Typically, we need to follow three simple strategies to handle outliers:
+
+        We can drop them. 
+        We can mark them as outliers and include them as a feature. 
+        Likewise, we can transform the feature to reduce the effect of the outlier.
+
+95) What is a Random Forest? How does it work?
+
+    - Random forest is a versatile machine learning method capable of performing both regression and classification tasks.
+
+        Like bagging and boosting, random forest works by combining a set of other tree models. Random forest builds a tree from a random sample of the columns in the test data.
+
+        Here’s are the steps how a random forest creates the trees:
+
+        Take a sample size from the training data.
+        Begin with a single node.
+        Run the following algorithm, from the start node:
+        If the number of observations is less than node size then stop.
+        Select random variables.
+        Find the variable that does the “best” job of splitting the observations.
+        Split the observations into two nodes.
+        Call step `a` on each of these nodes.
+
+96) What is Collaborative Filtering? And Content-Based Filtering?
+
+    - Collaborative filtering is a proven technique for personalized content recommendations. Collaborative filtering is a type of recommendation system that predicts new content by matching the interests of the individual user with the preferences of many users.
+
+        Content-based recommender systems are focused only on the preferences of the user. New recommendations are made to the user from similar content according to the user’s previous choices.
+
+97) How do check the Normality of a dataset?
+
+    - Visually, we can use plots. A few of the normality checks are as follows:
+
+        * Shapiro-Wilk Test
+        * Anderson-Darling Test
+        * Martinez-Iglewicz Test
+        * Kolmogorov-Smirnov Test
+        * D’Agostino Skewness Test
+
+98) Can logistic regression use for more than 2 classes?
+
+    - No, by default logistic regression is a binary classifier, so it cannot be applied to more than 2 classes. However, it can be extended for solving multi-class classification problems (multinomial logistic regression)
+
+99) What is P-value?
+
+    - P-values are used to make a decision about a hypothesis test. P-value is the minimum significant level at which you can reject the null hypothesis. The lower the p-value, the more likely you reject the null hypothesis.
+
+100) What are Parametric and Non-Parametric Models?
+
+     - Parametric models will have limited parameters and to predict new data, you only need to know the parameter of the model.
+
+        Non-Parametric models have no limits in taking a number of parameters, allowing for more flexibility and to predict new data. You need to know the state of the data and model parameters.
+
+101) What is Reinforcement Learning? 
+
+     - Reinforcement learning is different from the other types of learning like supervised and unsupervised. In reinforcement learning, we are given neither data nor labels. Our learning is based on the rewards given to the agent by the environment.
+
+102) What Are the Applications of Supervised Machine Learning in Modern Businesses?
+
+        - Applications of supervised machine learning include:
+
+        Email Spam Detection
+        Here we train the model using historical data that consists of emails categorized as spam or not spam. This labeled information is fed as input to the model.
+        Healthcare Diagnosis
+        By providing images regarding a disease, a model can be trained to detect if a person is suffering from the disease or not.
+        Sentiment Analysis
+        This refers to the process of using algorithms to mine documents and determine whether they’re positive, neutral, or negative in sentiment. 
+        Fraud Detection
+        By training the model to identify suspicious patterns, we can detect instances of possible fraud.
+
+103) What is Semi-supervised Machine Learning?
+
+        - Supervised learning uses data that is completely labeled, whereas unsupervised learning uses no training data.
+
+             In the case of semi-supervised learning, the training data contains a small amount of labeled data and a large amount of unlabeled data.
+
+104) What Are Unsupervised Machine Learning Techniques? 
+
+        - There are two techniques used in unsupervised learning: clustering and association.
+
+            * Clustering
+            Clustering problems involve data to be divided into subsets. These subsets, also called clusters, contain data that are similar to each other. Different clusters reveal different details about the objects, unlike classification or regression.
+
+            * Association
+            In an association problem, we identify patterns of associations between different variables or items.
+
+            For example, an e-commerce website can suggest other items for you to buy, based on the prior purchases that you have made, spending habits, items in your wishlist, other customers’ purchase habits, and so on.
+
+105) What Is ‘naive’ in the Naive Bayes Classifier?
+
+        - The classifier is called ‘naive’ because it makes assumptions that may or may not turn out to be correct. 
+
+            The algorithm assumes that the presence of one feature of a class is not related to the presence of any other feature (absolute independence of features), given the class variable.
+
+            For instance, a fruit may be considered to be a cherry if it is red in color and round in shape, regardless of other features. This assumption may or may not be right (as an apple also matches the description).
+
+106) Explain How a System Can Play a Game of Chess Using Reinforcement Learning?
+
+        - Reinforcement learning has an environment and an agent. The agent performs some actions to achieve a specific goal. Every time the agent performs a task that is taking it towards the goal, it is rewarded. And, every time it takes a step that goes against that goal or in the reverse direction, it is penalized. 
+
+            Earlier, chess programs had to determine the best moves after much research on numerous factors. Building a machine designed to play such games would require many rules to be specified. 
+
+            With reinforced learning, we don’t have to deal with this problem as the learning agent learns by playing the game. It will make a move (decision), check if it’s the right move (feedback), and keep the outcomes in memory for the next step it takes (learning). There is a reward for every correct decision the system takes and punishment for the wrong one. 
+
+107) How Will You Know Which Machine Learning Algorithm to Choose for Your Classification Problem?
+
+        - While there is no fixed rule to choose an algorithm for a classification problem, you can follow these guidelines:
+
+            If accuracy is a concern, test different algorithms and cross-validate them
+            If the training dataset is small, use models that have low variance and high bias
+            If the training dataset is large, use models that have high variance and little bias
+
+108) When Will You Use Classification over Regression?
+
+        - Classification is used when your target is categorical, while regression is used when your target variable is continuous. Both classification and regression belong to the category of supervised machine learning algorithms. 
+
+            Examples of classification problems include:
+
+            Predicting yes or no
+            Estimating gender
+            Breed of an animal
+            Type of color
+            Examples of regression problems include:
+
+            Estimating sales and price of a product
+            Predicting the score of a team
+            Predicting the amount of rainfall
+
+109) How Do You Design an Email Spam Filter?
+
+        - Building a spam filter involves the following process:
+
+            The email spam filter will be fed with thousands of emails 
+            Each of these emails already has a label: ‘spam’ or ‘not spam.
+            The supervised machine learning algorithm will then determine which type of emails are being marked as spam based on spam words like the lottery, free offer, no money, full refund, etc.
+            The next time an email is about to hit your inbox, the spam filter will use statistical analysis and algorithms like Decision Trees and SVM to determine how likely the email is spam
+            If the likelihood is high, it will label it as spam, and the email won’t hit your inbox
+            Based on the accuracy of each model, we will use the algorithm with the highest accuracy after testing all the models
+
+110) What is Pruning in Decision Trees, and How Is It Done?
+
+        - Pruning is a technique in machine learning that reduces the size of decision trees. It reduces the complexity of the final classifier, and hence improves predictive accuracy by the reduction of overfitting. 
+
+        Pruning can occur in:
+
+        Top-down fashion. It will traverse nodes and trim subtrees starting at the root
+        Bottom-up fashion. It will begin at the leaf nodes
+        There is a popular pruning algorithm called reduced error pruning, in which:
+
+        Starting at the leaves, each node is replaced with its most popular class
+        If the prediction accuracy is not affected, the change is kept
+        There is an advantage of simplicity and speed
+
+111) What is Kernel SVM?
+
+     - Kernel SVM is the abbreviated version of the kernel support vector machine. Kernel methods are a class of algorithms for pattern analysis, and the most common one is the kernel SVM.
+
+112)  What Are Some Methods of Reducing Dimensionality?
+
+         - You can reduce dimensionality by combining features with feature engineering, removing collinear features, or using algorithmic dimensionality reduction.
+
+       Now that you have gone through these machine learning interview questions, you must have got an idea of your strengths and weaknesses in this domain.
+
+113)  What is ‘Training set’ and ‘Test set’?
+
+         - In various areas of information science like machine learning, a set of data is used to discover the potentially predictive relationship known as ‘Training Set’. Training set is an examples given to the learner, while Test set is used to test the accuracy of the hypotheses generated by the learner, and it is the set of example held back from the learner. Training set are distinct from Test set.
+
+114) What is the difference between heuristic for rule learning and heuristics for decision trees?
+
+     - The difference is that the heuristics for decision trees evaluate the average quality of a number of disjointed sets while rule learners only evaluate the quality of the set of instances that is covered with the candidate rule.
+
+115) What is Perceptron in Machine Learning?
+
+     - In Machine Learning, Perceptron is a supervised learning algorithm for binary classifiers where a binary classifier is a deciding function of whether an input represents a vector or a number.
+
+116) What are Bayesian Networks (BN)?
+
+        - Bayesian Network is used to represent the graphical model for probability relationship among a set of variables.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
