@@ -724,28 +724,618 @@ Use Partial Least Squares Regression (PLS) or Principal Components Analysis
 
         - Bayesian Network is used to represent the graphical model for probability relationship among a set of variables.
 
+117) What is a voting model?
+
+     - A voting model is an ensemble model which combines several classifiers but to produce the final result, in case of a classification-based model, takes into account, the classification of a certain data point of all the models and picks the most vouched/voted/generated option from all the given classes in the target column.
+
+118) How to deal with very few data samples? Is it possible to make a model out of it?
+
+     - If very few data samples are there, we can make use of oversampling to produce new data points. In this way, we can have new data points.
+
+119) What are the hyperparameters of an SVM?
+
+     - The gamma value, c value and the type of kernel are the hyperparameters of an SVM model.
+
+120) What is Pandas Profiling?
+
+     - Pandas profiling is a step to find the effective number of usable data. It gives us the statistics of NULL values and the usable values and thus makes variable selection and data selection for building models in the preprocessing phase very effective.
+
+121) What impact does correlation have on PCA?
+
+     - If data is correlated PCA does not work well. Because of the correlation of variables the effective variance of variables decreases. Hence correlated data when used for PCA does not work well.
+
+122) How is PCA different from LDA?
+
+      - PCA is unsupervised. LDA is unsupervised.
+
+     - PCA takes into consideration the variance. LDA takes into account the distribution of classes.
+
+123) What distance metrics can be used in KNN?
+
+     - Following distance metrics can be used in KNN.
+
+        * Manhattan
+        * Minkowski
+        * Tanimoto
+        * Jaccard
+        * Mahalanobis
+
+124) Which metrics can be used to measure correlation of categorical data?
+
+     - Chi square test can be used for doing so. It gives the measure of correlation between categorical predictors.
+
+125) Which algorithm can be used in value imputation in both categorical and continuous categories of data?
+
+     - KNN is the only algorithm that can be used for imputation of both categorical and continuous variables.
+
+126) When should ridge regression be preferred over lasso?
+
+     - We should use ridge regression when we want to use all predictors and not remove any as it reduces the coefficient values but does not nullify them.
+
+127) Which algorithms can be used for important variable selection?
+
+     - Random Forest, Xgboost and plot variable importance charts can be used for variable selection.
+
+128) What ensemble technique is used by Random forests?
+
+     - Bagging is the technique used by Random Forests. Random forests are a collection of trees which work on sampled data from the original dataset with the final prediction being a voted average of all trees.
+
+129) What ensemble technique is used by gradient boosting trees?
+
+     - Boosting is the technique used by GBM.
+
+130) What is a good metric for measuring the level of multicollinearity?
+
+     - VIF or 1/tolerance is a good measure of measuring multicollinearity in models. VIF is the percentage of the variance of a predictor which remains unaffected by other predictors. So higher the VIF value, greater is the multicollinearity amongst the predictors.
+
+     - A rule of thumb for interpreting the variance inflation factor:
+
+        1 = not correlated.
+        Between 1 and 5 = moderately correlated.
+        Greater than 5 = highly correlated.
+
+131) When can be a categorical value treated as a continuous variable and what effect does it have when done so?
+
+     - A categorical predictor can be treated as a continuous one when the nature of data points it represents is ordinal. If the predictor variable is having ordinal data then it can be treated as continuous and its inclusion in the model increases the performance of the model.
+
+132) What is the role of maximum likelihood in logistic regression?
+
+     - Maximum likelihood equation helps in estimation of most probable values of the estimator’s predictor variable coefficients which produces results which are the most likely or most probable and are quite close to the truth values.
+     
+133) Which distance do we measure in the case of KNN?
+
+     - The hamming distance is measured in case of KNN for the determination of nearest neighbours. Kmeans uses euclidean distance.
+
+134) What is a pipeline?
+
+     - A pipeline is a sophisticated way of writing software such that each intended action while building a model can be serialized and the process calls the individual functions for the individual tasks. The tasks are carried out in sequence for a given sequence of data points and the entire process can be run onto n threads by use of composite estimators in scikit learn.
+
+135) Which sampling technique is most suitable when working with time-series data?
+
+     - We can use a custom iterative sampling such that we continuously add samples to the train set. We only should keep in mind that the sample used for validation should be added to the next train sets and a new sample is used for validation.
+
+136) What are the benefits of pruning?
+
+   - Pruning helps in the following:
+
+        * Reduces overfitting
+        * Shortens the size of the tree
+        * Reduces complexity of the model
+        * Increases bias
+
+137) What is normal distribution?
+
+     - The distribution having the below properties is called normal distribution. 
+
+        * The mean, mode and median are all equal.
+        * The curve is symmetric at the center (i.e. around the mean, μ).
+        * Exactly half of the values are to the left of center and exactly  half the values are to the right.
+        * The total area under the curve is 1.
+
+138) What is the 68 per cent rule in normal distribution?
+
+     - The normal distribution is a bell-shaped curve. Most of the data points are around the median. Hence approximately 68 per cent of the data is around the median. Since there is no skewness and its bell-shaped. 
+
+139) What is a chi-square test?
+
+     - A chi-square determines if a sample data matches a population. 
+
+     - A chi-square test for independence compares two variables in a contingency table to see if they are related.
+
+     - A very small chi-square test statistics implies observed data fits the expected data extremely well. 
+
+140) What is a random variable?
+
+     - A Random Variable is a set of possible values from a random experiment. Example: Tossing a coin: we could get Heads or Tails. Rolling of a dice: we get 6 values
+
+141) What is the degree of freedom?
+
+     - It is the number of independent values or quantities which can be assigned to a statistical distribution. It is used in Hypothesis testing and chi-square test.
+
+142) What is a false positive?
+
+     - It is a test result which wrongly indicates that a particular condition or attribute is present.
+
+     - Example – “Stress testing, a routine diagnostic tool used in detecting heart disease, results in a significant number of false positives in women”
+
+143) What is a false negative?
+
+     - A test result which wrongly indicates that a particular condition or attribute is absent.
+
+     - Example – “it’s possible to have a false negative—the test says you aren’t pregnant when you are”
+
+144) What is the error term composed of in regression?
+
+     - Error is a sum of bias error+variance error+ irreducible error in regression. Bias and variance error can be reduced but not the irreducible error.
+
+145) Which performance metric is better R2 or adjusted R2?
+
+     - Adjusted R2 because the performance of predictors impacts it. R2 is independent of predictors and shows performance improvement through increase if the number of predictors is increased.
+
+146) What’s the difference between Type I and Type II error?
+
+     - Type I and Type II error in machine learning refers to false values. Type I is equivalent to a False positive while Type II is equivalent to a False negative. In Type I error, a hypothesis which ought to be accepted doesn’t get accepted. Similarly, for Type II error, the hypothesis gets rejected which should have been accepted in the first place.
+
+147) What do you understand by L1 and L2 regularization?
+
+     * L2 regularization: It tries to spread error among all the terms. L2 corresponds to a Gaussian prior.
+
+     * L1 regularization: It is more binary/sparse, with many variables either being assigned a 1 or 0 in weighting. L1 corresponds to setting a Laplacean prior on the terms.
+
+148) Which one is better, Naive Bayes Algorithm or Decision Trees?
+
+     - Although it depends on the problem you are solving, but some general advantages are following:
+
+        Naive Bayes:
+
+        * Work well with small dataset compared to DT which need more data
+        * Lesser overfitting
+        * Smaller in size and faster in processing
+
+        Decision Trees:
+
+       * Decision Trees are very flexible, easy to understand, and easy to debug
+       * No preprocessing or transformation of features required
+       * Prone to overfitting but you can use pruning or Random forests to avoid that.
+
+149) What do you mean by the ROC curve?
+
+     - Receiver operating characteristics (ROC curve): ROC curve illustrates the diagnostic ability of a binary classifier. It is calculated/created by plotting True Positive against False Positive at various threshold settings. The performance metric of ROC curve is AUC (area under curve). Higher the area under the curve, better the prediction power of the model.
+
+150) What do you mean by AUC curve?
+
+     - AUC (area under curve). Higher the area under the curve, better the prediction power of the model.
+
+151) What is the meaning of Overfitting?
+
+     - Overfitting can be seen in machine learning when a statistical model describes random error or noise instead of the underlying relationship. Overfitting is usually observed when a model is excessively complex. It happens because of having too many parameters concerning the number of training data types. The model displays poor performance, which has been overfitted.
+
+152)  What is the method to avoid overfitting?
+
+      - Overfitting occurs when we have a small dataset, and a model is trying to learn from it. By using a large amount of data, overfitting can be avoided. But if we have a small database and are forced to build a model based on that, then we can use a technique known as cross-validation. In this method, a model is usually given a dataset of a known data on which training data set is run and dataset of unknown data against which the model is tested. The primary aim of cross-validation is to define a dataset to "test" the model in the training phase. If there is sufficient data, 'Isotonic Regression' is used to prevent overfitting.
+
+153) How is KNN different from k-means?
+
+     - KNN or K nearest neighbors is a supervised algorithm which is used for classification purpose. In KNN, a test sample is given as the class of the majority of its nearest neighbors. On the other side, K-means is an unsupervised algorithm which is mainly used for clustering. In k-means clustering, it needs a set of unlabeled points and a threshold only. The algorithm further takes unlabeled data and learns how to cluster it into groups by computing the mean of the distance between different unlabeled points.
+
+154) What are the five popular algorithms we use in Machine Learning?
+
+     - Five popular algorithms are:
+
+       * Decision Trees
+       * Probabilistic Networks
+       * Neural Networks
+       * Support Vector Machines
+       * Nearest Neighbor
+
+155) What is a model selection in Machine Learning?
+
+     - The process of choosing models among diverse mathematical models, which are used to define the same data is known as Model Selection. Model learning is applied to the fields of statistics, data mining, and machine learning.
+
+156) What do you understand by ILP?
+
+     - ILP stands for Inductive Logic Programming. It is a part of machine learning which uses logic programming. It aims at searching patterns in data which can be used to build predictive models. In this process, the logic programs are assumed as a hypothesis.
+
+157) What are the functions of Supervised Learning?
+
+     - Classification
+        * Speech Recognition
+        * Regression
+        * Predict Time Series
+        * Annotate Strings
+
+158) What are the functions of Unsupervised Learning?
+
+        - Finding clusters of the data
+            * Finding low-dimensional representations of the data
+            * Finding interesting directions in data
+            * Finding novel observations/ database cleaning
+            * Finding interesting coordinates and correlations
+
+159) What do you mean by Genetic Programming?
+
+     - Genetic Programming (GP) is almost similar to an Evolutionary Algorithm, a subset of machine learning. Genetic programming software systems implement an algorithm that uses random mutation, a fitness function, crossover, and multiple generations of evolution to resolve a user-defined task. The genetic programming model is based on testing and choosing the best option among a set of results.
+
+160) Explain True Positive, True Negative, False Positive, and False Negative in Confusion Matrix with an example?
+
+     - True Positive
+When a model correctly predicts the positive class, it is said to be a true positive.
+For example, Umpire gives a Batsman NOT OUT when he is NOT OUT.
+     - True Negative
+When a model correctly predicts the negative class, it is said to be a true negative.
+For example, Umpire gives a Batsman OUT when he is OUT.
+      - False Positive
+When a model incorrectly predicts the positive class, it is said to be a false positive. It is also known as 'Type I' error.
+For example, Umpire gives a Batsman NOT OUT when he is OUT.
+       - False Negative
+When a model incorrectly predicts the negative class, it is said to be a false negative. It is also known as 'Type II' error.
+For example, Umpire gives a Batsman OUT when he is NOT OUT.
+
+161) Which are the two components of Bayesian logic program?
+
+     - A Bayesian logic program consists of two components:
+
+        Logical
+        It contains a set of Bayesian Clauses, which capture the qualitative structure of the domain.
+        Quantitative
+        It is used to encode quantitative information about the domain.
+
+162) Why instance-based learning algorithm sometimes referred to as Lazy learning algorithm?
+
+     - In machine learning, lazy learning can be described as a method where induction and generalization processes are delayed until classification is performed. Because of the same property, an instance-based learning algorithm is sometimes called lazy learning algorithm.
+
+163) What is Hypothesis in Machine Learning?
+
+     - Machine Learning allows the use of available dataset to understand a specific function that maps input to output in the best possible way. This problem is known as function approximation. Here, approximation needs to be used for the unknown target function that maps all plausible observations based on the given problem in the best manner. Hypothesis in Machine learning is a model that helps in approximating the target function and performing the necessary input-to-output mappings. The choice and configuration of algorithms allow defining the space of plausible hypotheses that may be represented by a model.
+
+164) What is Entropy?
+
+     - Entropy in Machine Learning measures the randomness in the data that needs to be processed. The more entropy in the given data, the more difficult it becomes to draw any useful conclusion from the data. For example, let us take the flipping of a coin. The result of this act is random as it does not favor heads or tails. Here, the result for any number of tosses cannot be predicted easily as there is no definite relationship between the action of flipping and the possible outcomes.
+
+165) What is Epoch?
+
+     - Epoch in Machine Learning is used to indicate the count of passes in a given training dataset where the Machine Learning algorithm has done its job. Generally, when there is a large chunk of data, it is grouped into several batches. All these batches go through the given model, and this process is referred to as iteration. Now, if the batch size comprises the complete training dataset, then the count of iterations is the same as that of epochs.
+
+166) How is the suitability of a Machine Learning Algorithm determined for a particular problem?
+
+     - To identify a Machine Learning Algorithm for a particular problem, the following steps should be followed:
+
+       * Step 1: Problem classification: Classification of the problem depends on the classification of input and output:
+        Classifying the input: Classification of the input depends on whether there is data labeled (supervised learning) or unlabeled (unsupervised learning), or whether a model has to be created that interacts with the environment and improves itself (reinforcement learning.)
+        Classifying the output: If the output of a model is required as a class, then some classification techniques need to be used.
+        If the output is a number, then regression techniques must be used; if the output is a different cluster of inputs, then clustering techniques should be used.
+
+       * Step 2: Checking the algorithms in hand: After classifying the problem, the available algorithms that can be deployed for solving the classified problem should be considered.
+
+       * Step 3: Implementing the algorithms: If there are multiple algorithms available, then all of them are to be implemented. Finally, the algorithm that gives the best performance is selected.
+
+167) What is the Variance Inflation Factor?
+
+     - Variance inflation factor (VIF) is the estimate of the volume of multicollinearity in a collection of many regression variables.
+
+        VIF = Variance of the model / Variance of the model with a single independent variable
+
+        This ratio has to be calculated for every independent variable. If VIF is high, then it shows the high collinearity of the independent variables.
+
+168) How to Standardize Data?
+
+     - Standardization is the method that is used for rescaling data attributes. The attributes are likely to have a mean value of 0 and a value of the standard deviation of 1. The main objective of standardization is to prompt the mean and standard deviation for the attributes.
+
+169) What's the "kernel trick" and how is it useful?
+
+     - The Kernel trick involves kernel functions that can enable in higher-dimension spaces without explicitly calculating the coordinates of points within that dimension: instead, kernel functions compute the inner products between the images of all pairs of data in a feature space. This allows them the very useful attribute of calculating the coordinates of higher dimensions while being computationally cheaper than the explicit calculation of said coordinates. Many algorithms can be expressed in terms of inner products. Using the kernel trick enables us effectively run algorithms in a high-dimensional space with lower-dimensional data.
+
+170) Describe a hash table.
+
+     - A hash table is a data structure that produces an associative array. A key is mapped to certain values through the use of a hash function. They are often used for tasks such as database indexing.
+
+171) What is the difference between Gini Impurity and Entropy in a Decision Tree?
+
+     - Gini Impurity and Entropy are the metrics used for deciding how to split a Decision Tree.
+    Gini measurement is the probability of a random sample being classified correctly if you randomly pick a label according to the distribution in the branch.
+    Entropy is a measurement to calculate the lack of information. You calculate the Information Gain (difference in entropies) by making a split. This measure helps to reduce the uncertainty about the output label.
+
+172) What is A/B Testing?
+
+     - A/B is Statistical hypothesis testing for randomized experiment with two variables A and B. It is used to compare two models that use different predictor variables in order to check which variable fits best for a given sample of data.
+Consider a scenario where you've created two models (using different predictor variables) that can be used to recommend products for an e-commerce platform.
+A/B Testing can be used to compare these two models to check which one best recommends products to a customer.
+
+173) How do we label the hidden layers of a neural network?
+
+     - We label these intermediate or hidden layer nodes. The nodes are also called activation units.
+
+174) What is feature extraction?
+
+     - A method to transform or project the data onto a new feature space. In the context of dimensionality reduction, feature extraction can be understood as an approach to data compression with the goal of maintaining most of the relevant information.
+
+175) What are Recurrent Neural Networks?
+
+     - Recurrent Neural Networks (RNNs) can be thought of as feedforward neural networks with feedback loops or backpropagation through time. In RNNs, the neurons only fire for a limited amount of time before they are (temporarily) deactivated. In turn, these neurons activate other neurons that fire at a later point in time. Basically, we can think of recurrent neural networks as MLPs with an additional time variable. The time component and dynamic structure allows the network to use not only the current inputs but also the inputs that it encountered earlier.
+
+176) What are the advantages of using a naive Bayes for classification?
+
+        * Very simple, easy to implement and fast.
+        * If the NB conditional independence assumption holds, then it will converge quicker than discriminative models like logistic regression.
+        * Even if the NB assumption doesn’t hold, it works great in practice.
+        Need less training data.
+        * Highly scalable. It scales linearly with the number of predictors and data points.
+        * Can be used for both binary and mult-iclass classification problems.
+        * Can make probabilistic predictions.
+        * Handles continuous and discrete data.
+        * Not sensitive to irrelevant features.
+
+177) In what real world applications is Naive Bayes classifier used?
+
+     - Some of real world examples are as given below
+
+        * To mark an email as spam, or not spam?
+        * Classify a news article about technology, politics, or sports?
+        * Check a piece of text expressing positive emotions, or negative emotions?
+        * Also used for face recognition software
+
+178) What do you understand by Precision and Recall?
+
+     - In pattern recognition, The information retrieval and classification in machine learning are part of precision. It is also called as positive predictive value which is the fraction of relevant instances among the retrieved instances.
+
+     - Recall is also known as sensitivity and the fraction of the total amount of relevant instances which  were actually retrieved. 
+
+     - Both precision and recall are therefore based on an understanding and measure of relevance.
+
+179) What Are the Three Stages of Building a Model in Machine Learning?
+
+     - To build a model in machine learning, you need to follow few steps:
+
+        * Understand the business model
+        * Data acquisitions
+        * Data cleaning
+        * Exploratory data analysis
+        * Use machine learning algorithms to make a model
+        * Use unknown dataset to check the accuracy of the model
+
+180) What is the difference between Entropy and Information Gain?
+
+     - The information gain is based on the decrease in entropy after a dataset is split on an attribute. Constructing a decision tree is all about finding the attribute that returns the highest information gain (i.e., the most homogeneous branches). Step 1: Calculate entropy of the target.
+
+181) What are collinearity and multicollinearity?
+
+     - Collinearity is a linear association between two predictors. Multicollinearity is a situation where two or more predictors are highly linearly related.
+
+182) What is Kernel SVM?
+
+        - SVM algorithms have basically advantages in terms of complexity. First I would like to clear that both Logistic regression as well as SVM can form non linear decision surfaces and can be coupled with the kernel trick. If Logistic regression can be coupled with kernel then why use SVM?
+
+        - SVM is found to have better performance practically in most cases.
+
+        - SVM is computationally cheaper O(N^2*K) where K is no of support vectors (support vectors are those points that lie on the class margin) where as logistic regression is O(N^3)
+
+        - Classifier in SVM depends only on a subset of points . Since we need to maximize distance between closest points of two classes (aka margin) we need to care about only a subset of points unlike logistic regression.
+
+183) Why is “Naive” Bayes naive?
+
+     - Despite its practical applications, especially in text mining, Naive Bayes is considered “Naive” because it makes an assumption that is virtually impossible to see in real-life data: the conditional probability is calculated as the pure product of the individual probabilities of components. This implies the absolute independence of features — a condition probably never met in real life.
+
+     - As a Quora commenter put it whimsically, a Naive Bayes classifier that figured out that you liked pickles and ice cream would probably naively recommend you a pickle ice cream.
 
 
+184) Explain how a ROC curve works.
+
+     - The ROC curve is a graphical representation of the contrast between true positive rates and the false positive rate at various thresholds. It’s often used as a proxy for the trade-off between the sensitivity of the model (true positives) vs the fall-out or the probability it will trigger a false alarm (false positives).
 
 
+185) What’s the difference between a generative and discriminative model?
+
+     - A generative model will learn categories of data while a discriminative model will simply learn the distinction between different categories of data. Discriminative models will generally outperform generative models on classification tasks.
 
 
+186) How is a decision tree pruned?
+
+     - Pruning is what happens in decision trees when branches that have weak predictive power are removed in order to reduce the complexity of the model and increase the predictive accuracy of a decision tree model. Pruning can happen bottom-up and top-down, with approaches such as reduced error pruning and cost complexity pruning.
+
+     - Reduced error pruning is perhaps the simplest version: replace each node. If it doesn’t decrease predictive accuracy, keep it pruned. While simple, this heuristic actually comes pretty close to an approach that would optimize for maximum accuracy.
 
 
+187) What’s the F1 score? How would you use it?
+     - The F1 score is a measure of a model’s performance. It is a weighted average of the precision and recall of a model, with results tending to 1 being the best, and those tending to 0 being the worst. You would use it in classification tests where true negatives don’t matter much.
 
 
+188) How would you handle an imbalanced dataset?
+
+     - An imbalanced dataset is when you have, for example, a classification test and 90% of the data is in one class. That leads to problems: an accuracy of 90% can be skewed if you have no predictive power on the other category of data! Here are a few tactics to get over the hump:
+
+          * Collect more data to even the imbalances in the dataset.
+          * Resample the dataset to correct for imbalances.
+          * Try a different algorithm altogether on your dataset.
 
 
+189) How do you ensure you’re not overfitting with a model?
+
+     - This is a simple restatement of a fundamental problem in machine learning: the possibility of overfitting training data and carrying the noise of that data through to the test set, thereby providing inaccurate generalizations.
+
+     - There are three main methods to avoid overfitting:
+
+          * Keep the model simpler: reduce variance by taking into account fewer variables and parameters, thereby removing some of the noise in the training data.
+          * Use cross-validation techniques such as k-folds cross-validation.
+          * Use regularization techniques such as LASSO that penalize certain model parameters if they’re likely to cause overfitting.
 
 
+190) What evaluation approaches would you work to gauge the effectiveness of a machine learning model?
+
+     - You would first split the dataset into training and test sets, or perhaps use cross-validation techniques to further segment the dataset into composite sets of training and test sets within the data. You should then implement a choice selection of performance metrics: here is a fairly comprehensive list. You could use measures such as the F1 score, the accuracy, and the confusion matrix. What’s important here is to demonstrate that you understand the nuances of how a model is measured and how to choose the right performance measures for the right situations.
 
 
+191) How do you handle missing or corrupted data in a dataset?
+
+     - You could find missing/corrupted data in a dataset and either drop those rows or columns, or decide to replace them with another value.
+
+     - In Pandas, there are two very useful methods: isnull() and dropna() that will help you find columns of data with missing or corrupted data and drop those values. If you want to fill the invalid values with a placeholder value (for example, 0), you could use the fillna() method.
 
 
+192) Pick an algorithm. Write the pseudo-code for a parallel implementation.
+
+     - This kind of question demonstrates your ability to think in parallelism and how you could handle concurrency in programming implementations dealing with big data. Take a look at pseudocode frameworks such as Peril-L and visualization tools such as Web Sequence Diagrams to help you demonstrate your ability to write code that reflects parallelism.
 
 
+193) What are some differences between a linked list and an array?
+
+     - An array is an ordered collection of objects. A linked list is a series of objects with pointers that direct how to process them sequentially. An array assumes that every element has the same size, unlike the linked list. A linked list can more easily grow organically: an array has to be pre-defined or re-defined for organic growth. Shuffling a linked list involves changing which points direct where—meanwhile, shuffling an array is more complex and takes more memory.
 
 
+194) Which data visualization libraries do you use? What are your thoughts on the best data visualization tools?
+
+     - What’s important here is to define your views on how to properly visualize data and your personal preferences when it comes to tools. Popular tools include R’s ggplot, Python’s seaborn and matplotlib, and tools such as Plot.ly and Tableau.
+
+
+195) How are primary and foreign keys related in SQL?
+
+     - Most machine learning engineers are going to have to be conversant with a lot of different data formats. SQL is still one of the key ones used. Your ability to understand how to manipulate SQL databases will be something you’ll most likely need to demonstrate. In this example, you can talk about how foreign keys allow you to match up and join tables together on the primary key of the corresponding table—but just as useful is to talk through how you would think about setting up SQL tables and querying them. 
+
+
+196) How would you implement a recommendation system for our company’s users?
+
+     - A lot of machine learning interview questions of this type will involve the implementation of machine learning models to a company’s problems. You’ll have to research the company and its industry in-depth, especially
+
+
+197) What is a lambda expression in Python?
+
+     - With the help of lambda expression, you can create an anonymous function. Unlike conventional functions, lambda functions occupy a single line of code. The basic syntax of a lambda function is –
+
+     - lambda arguments: expression
+
+       An example of lambda function in Python data science is –
+
+               x = lambda a : a * 5
+               print(x(5))
+
+          We obtain the output of 25.
+
+
+198) How will you measure the Euclidean distance between the two arrays in numpy?
+
+     - In order to measure the Euclidean distance between the two arrays, we will first initialize our two arrays, then we will use the linalg.norm() function provided by the numpy library. Here, numpy is imported as np.
+
+               a = np.array([1,2,3,4,5])
+               b = np.array([6,7,8,9,10])
+               # Solution
+               e_dist = np.linalg.norm(a-b)
+               e_dist
+               11.180339887498949
+     - With data integrity, we can define the accuracy as well as the consistency of the data. This integrity is to be ensured over the entire life-cycle.
+
+
+199) How will you create an identity matrix using numpy?
+
+     - In order to create the identity matrix with numpy, we will use the identity() function.
+     - Numpy is imported as np
+
+               np.identity(3)
+
+          We will obtain the output as –
+
+               array([[1., 0., 0.],
+               [0., 1., 0.],
+               [0., 0., 1.]])
+
+
+200) You had mentioned Python as one of the tools for solving data science problems, can you tell me the various libraries of Python that are used in Data Science?
+
+     - Some of the important libraries of Python that are used in Data Science are –
+
+          * Numpy
+          * SciPy
+          * Pandas
+          * Matplotlib
+          * Keras 
+          * TensorFlow
+          * Scikit-learn
+
+     
+201) How do you create a 1-D array in numpy?
+
+     - You can create a 1-D array in numpy as follows:
+
+               x = np.array([1,2,3,4])
+
+          Where numpy is imported as np
+
+
+202) What function of numpy will you use to find maximum value from each row in a 2D numpy array?
+
+     - In order to find the maximum value from each row in a 2D numpy array, we will use the amax() function as follows –
+
+               np.amax(input, axis=1)
+
+          Where numpy is imported as np and input is the input array.
+
+
+203) Given two lists [1,2,3,4,5] and [6,7,8], you have to merge the list into a single dimension. How will you achieve this?
+
+     - In order to merge the two lists into a single list, we will concatenate the two lists as follows –
+
+               list1 + list2
+
+          We will obtain the output as – [1, 2, 3, 4, 5, 6, 7, 8]
+
+
+204) How will you create an identity matrix using numpy?
+
+     - In order to create the identity matrix with numpy, we will use the identity() function. Numpy is imported as np
+
+               np.identity(3)
+
+          We will obtain the output as –
+
+               array([[1., 0., 0.],
+               [0., 1., 0.],
+               [0., 0., 1.]])
+
+     
+205) How to add a border that is filled with 0s around an existing array?
+
+      - In order to add a border to an array that is filled with 0s, we first make an array Z and initialize it with zeroes. We first import numpy as np.
+
+               Z = np.ones((5,5))
+               Then, we perform padding on it with the help of pad() function. 
+               Z = np.pad(Z, pad_width=1, mode='constant', constant_values=0)
+               print(Z)
+
+
+206) How will you multiply a 4×3 matrix by a 3×2 matrix ?
+
+     - There are two ways to do this. The first method is for the versions of Python that are older than 3.5 –
+
+               Z = np.dot(np.ones((4,3)), np.ones((3,2)))
+               print(Z)
+               array([[3., 3.],
+               [3., 3.],
+               [3., 3.],
+               [3., 3.]])
+
+     - The second method is for Python version > 3.5,
+
+               Z = np.ones((4,3)) @ np.ones((3,2))
+
+          
+207) Can you name the type of biases that occur in machine learning?
+
+     - There are four main types of biases that occur while building machine learning algorithms –
+
+          * Sample Bias
+          * Prejudice Bias    
+          * Measurement Bias
+          * Algorithm Bias
+
+
+208) How is skewness different from kurtosis?
+
+     - In data science, the general meaning of skewness is basically to determine the imbalance. In statistics, skewness is a measure of asymmetry in the distribution of data. Ideally, data is normally distributed, meaning that both the left and right tails are equidistant from the center of the distribution. In this case, the skewness is 0. However, a distribution exhibits negative skewness if the left tail is longer than the right one. And, the distribution exhibits positive skewness if the right tail is longer than the left one.
+
+     - In case of kurtosis, we measure the pointedness of the peak of distribution. The ideal kurtosis or the kurtosis of a normal distribution is 3. If the kurtosis of the tail data exceeds 3, then we say that the distributions possess heavy tails. And, if the kurtosis is less than 3, we say that the distributions have thin tails.
+
+
+209) What is z-score?
+
+     - Z-score, also known as the standard score is the number of standard deviations that the data-point is from the mean. It measures how many standard deviations below or above the population mean is. Z-score ranges from -3 and goes up till +3 standard deviations.
 
 
 
