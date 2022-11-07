@@ -2707,7 +2707,7 @@ Lemmatization converts the word into its lemma form. The output is the root word
 
      - The general principle of an ensemble method is to combine the predictions of several models built with a given learning algorithm in order to improve robustness over a single model. Bagging is a method in ensemble for improving unstable estimation or classification schemes. While boosting method are used sequentially to reduce the bias of the combined model. Boosting and Bagging both can reduce errors by reducing the variance term.
 
-400) 37) What is bias-variance decomposition of classification error in ensemble method?
+400) What is bias-variance decomposition of classification error in ensemble method?
 
      - The expected error of a learning algorithm can be decomposed into bias and variance. A bias term measures how closely the average classifier produced by the learning algorithm matches the target function. The variance term measures how much the learning algorithm’s prediction fluctuates for different training sets.
 
