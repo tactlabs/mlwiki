@@ -24,7 +24,7 @@
 - [Online Food Order Prediction](https://thecleverprogrammer.com/2022/06/07/online-food-order-prediction-with-machine-learning/)
 - [Virat Kohli Performance Analysis](https://thecleverprogrammer.com/2022/05/10/virat-kohli-performance-analysis-using-python/)
 - [Book Recommendation System](https://thecleverprogrammer.com/2022/07/19/book-recommendation-system-using-python/)
-- [Time Series Forecasting with ARIMA]()https://thecleverprogrammer.com/2022/06/21/time-series-forecasting-with-arima/
+- [Time Series Forecasting with ARIMA](https://thecleverprogrammer.com/2022/06/21/time-series-forecasting-with-arima/)
 - [Smartwatch Data Analysis](https://thecleverprogrammer.com/2022/05/31/smartwatch-data-analysis-using-python/)
 - [MNIST Digits Classification](https://thecleverprogrammer.com/2022/05/17/mnist-digits-classification-with-machine-learning/)
 - [IPL 2022 Analysis using Python](https://thecleverprogrammer.com/2022/05/03/ipl-2022-analysis-using-python/)
