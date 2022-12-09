@@ -199,3 +199,4 @@ ML Wiki
 
 ### Misc
 - [ML Projects](ml-projects.md)
+- [Random Feeds](random-feeds.md)
