@@ -13,3 +13,15 @@ Reducing the number of variables in a data set results in decrease in accuracy, 
 ---
 
 <br>
+
+In data science and machine learning, Principal Component Analysis (PCA) is an unsupervised linear dimensionality reduction and data visualization technique for high-dimensional data.
+
+PCA is a method that uses simple matrix operations from linear algebra and statistics to figure out how to project the original data into the same number of dimensions or fewer dimensions.
+
+Also, because it is hard to learn anything from high-dimensional data, it takes a lot of processing power.
+
+![PCA](images/pca-1.jpeg "PCA")
+
+---
+
+<br>
