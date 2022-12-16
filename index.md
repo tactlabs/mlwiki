@@ -202,3 +202,7 @@ ML Wiki
 ### Misc
 - [ML Projects](ml-projects.md)
 - [Random Feeds](random-feeds.md)
+
+
+### Interview Preparation
+- [120 ML Interview Questions](120-ml-interview-questions.md)
