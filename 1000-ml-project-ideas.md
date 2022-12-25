@@ -584,7 +584,7 @@
 590. Self Driving car project using
 591. OpenCV Python Neural Network Autonomous RC C
 592. Stock prediction using sentimental analysis –
-593. Illness Tracker | Final Year Project
+593. Illness Tracker
 594. neural network JAVA
 595. Credit Card Fraud Detection Using Neural Network
 596. Detecting Phishing Websites using Technique
