@@ -79,23 +79,24 @@
 77. Image Captioning
 78. Sentiment Analysis for Tweets
 79. 911 Calls - Exploratory Analysis.
-80.General Election Poll Analysis
+80. General Election Poll Analysis
 81. Cross-Language Information Retrieval
 82. Digit Recognition Model
 83. Stock Market Analysis for Tech Stocks
-84.Time Series - Indian Nifty Next 25-day Performance Prediction.
+84. Time Series - Indian Nifty Next 25-day Performance Prediction.
 85. Introvert & Extrovert People Clustering based on Social media activity. 86. Image to Text Conversion & Extraction
 87. Autoencoder Fashion MNIST
-88.Movie Recommendation Engine
+88. Movie Recommendation Engine
 89. Spam Email Classification
 90. Traffic Sign Recognizer
 91. Forbes 100 Billionaires Wealth Spending Analysis.
 92. Online Payments Fraud Detection 93. Future Sales Prediction
-94.Waiter Tips Analysis & Prediction 95. Stock Price Prediction
+94. Waiter Tips Analysis & Prediction 95. Stock Price Prediction
 96. Flipkart Reviews Sentiment Analysis
-97. Stock Price Prediction with LSTM Neural Network 98. Cryptocurrency Price Prediction for the next 30 days 99. Article Recommendation System
+97. Stock Price Prediction with LSTM Neural Network 98. Cryptocurrency Price Prediction for the next 30 days
+99. Article Recommendation System
 100. Netflix Stock Price Prediction
-101.Time Series Analysis
+101. Time Series Analysis
 102. Classification with Neural Networks
 103. Stress Detection
 104. AlexNet Neural Network Architecture
@@ -104,15 +105,15 @@
 107. Product Demand Prediction
 108. Electricity Price Prediction
 109. Language Detection
-110.Adding Labels to a Dataset for Sentiment Analysis 111. Pfizer Vaccine Sentiment Analysis
-112.News Classification
-113.Omicron Variant Sentiment Analysis
+110. Adding Labels to a Dataset for Sentiment Analysis 111. Pfizer Vaccine Sentiment Analysis
+112. News Classification
+113. Omicron Variant Sentiment Analysis
 114. Iris Flower Classification
-115.Water Quality Analysis
-116.Twitter Sentiment Analysis
+115. Water Quality Analysis
+116. Twitter Sentiment Analysis
 117. Squid Game Sentiment Analysis
-118.Comparison of Classification Algorithms
-119.Tata Motors Stock Price Prediction
+118. Comparison of Classification Algorithms
+119. Tata Motors Stock Price Prediction
 120. Health Insurance Premium Prediction 121.Movie Rating Analysis for Beginners
 122. Number of Orders Prediction
 123. Apple Stock Price Prediction
@@ -123,7 +124,7 @@
 128. Spam Detection
 129. Count Objects in Image
 130. WhatsApp Chats Sentiment Analysis
-131.WhatsApp Chats Analysis
+131. WhatsApp Chats Analysis
 132. Microsoft Stock Price Prediction
 133. Covid-19 Vaccine Analysis
 134. Video Game Sales Prediction Model
@@ -142,7 +143,7 @@
 148. Data Science Project on Time Series
 149. Data Science Project on Area and Population
 150. A Complete Project Walkthrough
-151.Text Summarization
+151. Text Summarization
 152. Keyword Extraction
 153. Data Science on Finance
 154. Data Science on Marketing
@@ -152,7 +153,7 @@
 158. Sarcasm Detection
 159. Social Media Followers Prediction
 160. Amazon Product Reviews Sentiment Analysis
-161.Hate Speech Detection
+161. Hate Speech Detection
 162. End-to-end Hate Speech Detection System
 163. End-to-end Fake News Detection System
 164. End-to-end Spam Detection System
@@ -162,7 +163,7 @@
 168. Google Play Store Sentiment Analysis
 169. Amazon Alexa Reviews Sentiment Analysis
 170. Social Media Ads Classification
-171.Fake News Detection
+171. Fake News Detection
 172. End-to-End Model
 173. Gender Detection
 174. Sales Prediction
@@ -172,7 +173,7 @@
 178. Automatic Time Series Forecasting
 179. Ted-Talks Recommendation System
 180. Real-time Sentiment Analysis
-181.Amazon Recommendation System
+181. Amazon Recommendation System
 182. Mobile Price Classification
 183. House Price Prediction
 184. Real-Time Face Mask Detection
@@ -182,12 +183,10 @@
 188.
 189.
 190.
-191.Deepfake Detection with .
+191. Deepfake Detection with .
 192. Predict US Elections with Python.
-193. Fake Currency Detection with .
-194. Predict Tinder Matches with .
-Age and Gender Detection with Python Autocorrect Keyboard with Python and .
-in 5 lines of code.
+193. Fake Currency Detection with
+194. Predict Tinder Matches with Age and Gender Detection with Python Autocorrect Keyboard with Python and in 5 lines of code.
 195. Pencil Sketch with Python.
 196. OpenAI Gym in
 197. Fraud Detection with .
@@ -204,7 +203,7 @@ in 5 lines of code.
 208. Time Series - Predict Migration
 209. Time Series - Weather Prediction Model
 210. Contact Tracing with
-211.Covid-19 Telegram Bot with Python
+211. Covid-19 Telegram Bot with Python
 212. Covid-19 Detection with
 213. Covid-19 Death Rate Analysis with
 214.
@@ -283,8 +282,7 @@ in 5 lines of code.
 287. What are People Saying about Net Neutrality
 288. Bird Species Identification from an Image
 289. A bigram extension to a word vector representation
-290. Mining for Confusion – Classifying Affect in MOOC Learners’ Discussion
-Forum Posts
+290. Mining for Confusion – Classifying Affect in MOOC Learners’ Discussion Forum Posts
 291. Cardiac Arrhythmias Patients
 292. Prediction of Average and Perceived Polarity in Online Journalism
 293. Cardiac Dysrhythmia Detection with GPU-Accelerated Neural Networks
@@ -298,8 +296,7 @@ Forum Posts
 301. Classifying Complex Legal Documents
 302. Applied to the Detection of Retinal Blood Vessels
 303. Survival Outcome Prediction for Cancer Patients
-304. Predicting Cellular Link Failures to Improve User Experience on
-Smartphones
+304. Predicting Cellular Link Failures to Improve User Experience on Smartphones
 305. Yelp Personalized Reviews
 306. KMeans
 307. Strength in numbers_ Modelling the impact of businesses on each other
@@ -309,26 +306,21 @@ Smartphones
 311. classifier
 312. Using Vector Representations to Augment Sentiment Analysis
 313. Analyzing Vocal Patterns to Determine Emotion
-314. Predicting the Commercial Success of Songs Based on Lyrics and Other
-Metrics
+314. Predicting the Commercial Success of Songs Based on Lyrics and Other Metrics
 315. Application Of To Aircraft Conceptual Design
 316. Extracting Word Relationships from Unstructured Data
 317. for Predicting Delayed Onset Trauma Following Ischemic Stroke
 318. Classifying Online User Behavior Using Contextual Data
-319. Real-Time Flight Path Optimization Under Constraints Using Surrogate
-Flutter Function
-320. Real-Time Dense Map Matching with Naive Hidden Markov Models Delay
-versus Accuracy
+319. Real-Time Flight Path Optimization Under Constraints Using Surrogate Flutter Function
+320. Real-Time Dense Map Matching with Naive Hidden Markov Models Delay versus Accuracy
 321. Prediction Function from Sequence in Venom Peptide Families
 322. Restaurant Recommendation System
 323. Home Electricity Load Forecasting
 324. Learning Dota 2 Team Compositions
-325. Applying Deep Learning to derive insights about non-coding regions of
-the genome
+325. Applying Deep Learning to derive insights about non-coding regions of the genome
 326. Classification of Higgs Jets as Decay Products of a Randall-Sundrum Graviton at the ATLAS Experiment
 327. SemenFertilityPrediction.Axel Guyon,Florence Koskas,Yoann Buratti
-328. Sentiment Analysis Using Semi-Supervised Recursive Autoencoders and
-Support Vector Machines
+328. Sentiment Analysis Using Semi-Supervised Recursive Autoencoders and Support Vector Machines
 329. Classifying Syllables in Imagined Speech using EEG Data
 330. Abraham Starosta-Typeguess
 331. Predicting Usefulness of Yelp Reviews
@@ -344,8 +336,7 @@ Support Vector Machines
 341. Office Appliance Classification
 342. Sentiment Analysis on Movie Reviews
 343. Predicting Mobile Application Success
-344. Modeling Activity Recognition Using Physiological Data Collected from
-Wearable Technology
+344. Modeling Activity Recognition Using Physiological Data Collected from Wearable Technology
 345. Neural Network Joint Language Model.Charles Qi.[pdf]
 346. Yelp Recommendation System Using Advanced Collaborative Filtering
 347. Prediction of Yelp Review Star Rating using Sentiment Analysis
@@ -354,8 +345,7 @@ Wearable Technology
 350. Email Filtering By Response Required
 351. Forecasting Utilization in City Bike-Share Program
 352. Recommender.Christopher Aberger
-353. Predicting Cell Type-Specific Chromatin States from Genetic Regulatory
-Networks
+353. Predicting Cell Type-Specific Chromatin States from Genetic Regulatory Networks
 354. Pose Estimation Based on 3D Models
 355. Visual Localization and POMDP for Autonomous Indoor Navigation
 356. Contours and Kernels-The Art of Sketching
@@ -364,12 +354,10 @@ Networks
 359. Prediction of Transcription Factors that Regulate Common Binding Motifs
 360. Multi-class motif discovery in keratinocyte differentiation
 361. Defensive Unit Performance Analysis
-362. Diagnosing Malignant versus Benign Breast Tumors via Techniques in
-High Dimensions
+362. Diagnosing Malignant versus Benign Breast Tumors via Techniques in High Dimensions
 363. Hacking the Hivemind
 364. Diagnosing Parkinson’s from Gait
-365. Implementing Algorithms on GPUs for Real-Time Traffic Sign
-Classification 366. Vignette
+365. Implementing Algorithms on GPUs for Real-Time Traffic Sign Classification 366. Vignette
 367. In JavaScript
 368. Searching for exoplanets in the Kepler public data
 369. Model Clustering via Group Lasso
@@ -381,19 +369,15 @@ Classification 366. Vignette
 375. Detecting Ads in a Approach
 376. Predicting Mitochondrial tRNA Modification
 377. Collaborative Neighborhoods
-378. Estimation of Causal Effects from Observational Study of Job Training
-Program
+378. Estimation of Causal Effects from Observational Study of Job Training Program
 379. Deep Learning Architecture for Univariate Time Series Forecasting
 380. Solomon
 381. Automatic detection of nanoparticles in tissue sections
 382. Implementation of Deep Convolutional NeuralNet on a DSP
-383. Evergreen or Ephemeral – Predicting Webpage Longevity Through
-Relevancy Features
+383. Evergreen or Ephemeral – Predicting Webpage Longevity Through Relevancy Features
 384. MacMalware
-385. Extractive Fiction Summarization Using Sentence Significance Scoring
-Models
-386. Identifying And Predicting Market Reactions To Information Shocks In
-Commodity Markets
+385. Extractive Fiction Summarization Using Sentence Significance Scoring Models
+386. Identifying And Predicting Market Reactions To Information Shocks In Commodity Markets
 387. An EM-Derived Approach to Blind HRTF Estimation
 388. The Many Dimensions of Net Neutrality
 389. Learning To Predict Dental Caries For Preschool Children
@@ -405,15 +389,12 @@ Commodity Markets
 395. Robo Brain Massive Knowledge Base for Robots
 396. Understanding Music Genre Similarity
 397. Correlated Feature Selection for Single-Cell Phenotyping
-398. Activity Recognition in Construction Sites Using 3D Accelerometer and
-Gyrometer
+398. Activity Recognition in Construction Sites Using 3D Accelerometer and Gyrometer
 399. Event-based stock market prediction
 400. Recommendation Based On User Experience
 401. Spectrum Adaptation in Multicarrier Interference Channels
-402. Exploring Potential for on Data About K-12 Teacher Professional
-Development
-403. Player Behavior and Optimal Team Compositions for Online Multiplayer
-Games
+402. Exploring Potential for on Data About K-12 Teacher Professional Development
+403. Player Behavior and Optimal Team Compositions for Online Multiplayer Games
 404. Algorithmic Trading Strategy Based On Massive Data Mining
 405. Face Detection And Recognition Of Drawn Characters
 406. Gene Expression Analysis Of HCMV Latent Infection
@@ -422,15 +403,13 @@ Games
 409. Naïve Bayes Classifier And Profitability of Options Gamma Trading
 410. Vector-based Sentiment Analysis of Movie Reviews
 411. A General-Purpose Sentence-Level Nonsense Detector
-412. Characterizing Genetic Variation in Three Southeast Asian Populations for
-the Smart Grid
+412. Characterizing Genetic Variation in Three Southeast Asian Populations for the Smart Grid
 413. Predicting Africa Soil Properties
 414. Automated Bitcoin Trading via Algorithms
 415. SkatBot
 416. Tradeshift Text Classification
 417. New York City Bike Share
-418. Predicting Seizure Onset in Epileptic Patients Using Intracranial EEG
-Recordings
+418. Predicting Seizure Onset in Epileptic Patients Using Intracranial EEG Recordings
 419. Predicting Foster Care Exit
 420. Yelp Recommendation System
 421. Predicting National Basketball Association Game Winners
@@ -441,8 +420,7 @@ Recordings
 426. Predicting User Following Behavior On Tencent Weibo
 427. Improving Taxi Revenue With Reinforcement Learning
 428. Learning Facial Expressions From an Image
-429. All Your Base Are Belong To Us English Texts Written by Non-Native
-Speakers
+429. All Your Base Are Belong To Us English Texts Written by Non-Native Speakers
 430. Identifying Regions High Turbidity
 431. A Comparison of Classification Methods for Expression Quantitative Trait
 432. Predicting Mobile Users' Future Location
@@ -462,8 +440,7 @@ Speakers
 446. Classifying Forest Cover Type using Cartographic Features
 447. Peer Lending Risk Predictors
 448. Learning Distributed Representations of Phrases
-449. Estimation Of Word Representations Using Recurrent Neural Networks
-And Its Application In Generating Business Fingerprints
+449. Estimation Of Word Representations Using Recurrent Neural Networks And Its Application In Generating Business Fingerprints
 450. Gender Identification by Voice
 451. Applications Of To Predict Yelp Ratings
 452. Methodology for Sparse Classification Learning Arrhythmia
@@ -497,30 +474,23 @@ And Its Application In Generating Business Fingerprints
 480. Scheduling Tasks Under Constraints
 481. Classification Of Beatles Authorship
 482. Classification of Accents of English Speakers by Native Language
-483. Exposing commercial value in social networks matching online
-communities and businesses
+483. Exposing commercial value in social networks matching online communities and businesses
 484. Hacking the genome
 485. How Hot Will It Get Modeling Scientific Discourse About Literature
-486. Permeability Prediction of 3-D Binary Segmented Images Using Neural
-Networks
-487. Automated Identification of Artist Given Unknown Paintings and
-Quantification of Artistic Style
+486. Permeability Prediction of 3-D Binary Segmented Images Using Neural Networks
+487. Automated Identification of Artist Given Unknown Paintings and Quantification of Artistic Style
 488. Predicting Lecture Video Complexity
-489. Result Prediction of Wikipedia Administrator Elections based on Network
-Features
+489. Result Prediction of Wikipedia Administrator Elections based on Network Features
 490. Predicting The Treatment Status
 491. Error Detection based on neural signals
 492. Speech Similarity
 493. Data-Driven Modeling and Control of an Autonomous Race Car
-494. Predicting the Diagnosis of Type 2 Diabetes Using Electronic Medical
-Records
+494. Predicting the Diagnosis of Type 2 Diabetes Using Electronic Medical Records
 495. A Novel Approach to Predicting the Results of NBA Matches
 496. Automatically Generating Musical Playlists
 497. Solar Flare Prediction
-498. Application of techniques for well pad identification in the Bakken oil
-field
-499. Anomaly Detection in Bitcoin Network Using Unsupervised Learning
-Methods
+498. Application of techniques for well pad identification in the Bakken oil field
+499. Anomaly Detection in Bitcoin Network Using Unsupervised Learning Methods
 500. Two-step Semi-supervised Approach for Music Structural Classification
 501. Domain-specific sentiment analysis using cross-domain data
 502. Instrumental Solo Generator
@@ -532,12 +502,11 @@ Methods
 508. Collaborative Filtering Recommender Systems
 509. Detecting The Direction Of Sound With A Compact Microphone Array
 510. Finding Undervalued Stocks
-511.Multilevel Local Search Algorithms for Modularity Clustering
+511. Multilevel Local Search Algorithms for Modularity Clustering
 512. Automated Detection and Classification of Cardiac Arrhythmias
 513. Predicting Kidney Cancer Survival From Genomic Data
 514. Multiclass Sentiment Analysis of Movie Reviews
-515. Classification and Regression Approaches to Predicting US Senate
-Elections
+515. Classification and Regression Approaches to Predicting US Senate Elections
 516. Learning from Quantified Self-Data
 517. Predict Influencers in the Social Network
 518. Bias Detector
@@ -548,13 +517,11 @@ Elections
 523. Analyzing Positional Play in Chess Using
 524. Yelp Restaurants’ Open Hours
 525. Identifying Arrhythmia from Electrocardiogram Data
-526. Diagnosing and Segmenting Brain Tumors and Phenotypes using MRI
-Scans M
+526. Diagnosing and Segmenting Brain Tumors and Phenotypes using MRI Scans M
 527. chine Learning
 528. Exploring the Genetic Basis of Congenital Heart Defects
 529. Attribution of Contested and Anonymous Ancient Greek Works
-530. Object Detection for Semantic SLAM using Convolutional Neural
-Networks
+530. Object Detection for Semantic SLAM using Convolutional Neural Networks
 531. Sentiment as a Predictor of Wikipedia Editor Activity
 532. Blowing Up The Twittersphere- Predicting the Optimal Time to Tweet
 533. Evergreen Classification_ Exploring New Features
@@ -569,8 +536,7 @@ Networks
 542. Prediction Onset Epileptic
 543. Evaluating Pinch Quality of Underactuated Robotic Hands
 544. Reinforcement Learning With Deeping Learning in Pacman
-545. Language identification and accent variation detection in spoken
-language recordings
+545. Language identification and accent variation detection in spoken language recordings
 546. Enhancing Cortana User Experience Using
 547. Who Matters
 548. Predicting Heart Attacks
@@ -582,14 +548,12 @@ language recordings
 554. Adaptive Spaced Repetition
 555. Do a Barrel Roll
 556. Oil Field Production using
-557. Predicting Success for Musical Artists through Network and Quantitative
-Data
+557. Predicting Success for Musical Artists through Network and Quantitative Data
 558. Better Models for Prediction of Bond Prices
 559. Classifying the Brain 27s Motor Activity via Deep Learning
 560. Prediction of Bike Rentals
 561. Classification of Alzheimer’s Disease Based on White Matter Attributes
-562. MoralMachines- Developing a Crowdsourced Moral Framework for
-Autonomous Vehicle Decisions
+562. MoralMachines- Developing a Crowdsourced Moral Framework for Autonomous Vehicle Decisions
 563. Context-Specific Sequence Preference Of DNA Binding Proteins
 564. Predicting Reddit Post Popularity ViaInitial Commentary
 565. for Continuous Human Action Recognition
@@ -612,8 +576,7 @@ Autonomous Vehicle Decisions
 582. Seizure forecasting
 583. Stock Trend Prediction with Technical Indicators using SVM
 584. Predicting Usefulness of Yelp Reviews
-585. Multiclass Classifier Building with Amazon Data to Classify Customer
-Reviews into Product Categories
+585. Multiclass Classifier Building with Amazon Data to Classify Customer Reviews into Product Categories
 586. An Energy Efficient Seizure Prediction Algorithm
 587. Classifier Comparisons On Credit Approval Prediction
 588. Appliance-Based Model for Energy Consumption Segmentation
@@ -626,8 +589,7 @@ Reviews into Product Categories
 595. Credit Card Fraud Detection Using Neural Network
 596. Detecting Phishing Websites using Technique
 597. Final Project: Classification of Neural Responses to Threat
-598. A Computer-Aided Diagnosis System for Lung Cancer Detection using
-Machine
+598. A Computer-Aided Diagnosis System for Lung Cancer Detection using Machine
 599. Prediction of Diabetes and cancer using SVM
 600. Efficient Heart Disease Prediction System
 
