@@ -41,16 +41,18 @@
 37. Text Summarization using Word Frequency
 38. California Housing
 39. Ad Demand Forecast
-40. Article Recording System.
+40. Article Recording System
 41. Autoencoder for customer churn
-42. Bayesian Logistic Regression Bank marketing 43. Bayesian Statistics
+42. Bayesian Logistic Regression Bank marketing 
+43. Bayesian Statistics
 44. BOW TFIDF XGboost Update
 45. Autoencoder For Bank Employee Retention
 46. Mercari Price Suggestion Lightgbm
-47. Modeling House Price with Regularized 48.Linear Model _ XGboost
+47. Modeling House Price with Regularized 
+48. Linear Model _ XGboost
 49. Nhanes Confidence Intervals
 50. Nhanes hypothesis testing
-51. Practical Statistics House Demand Analysis. Price Elasticity of Demand Analysis
+51. Practical Statistics House Demand Analysis - Price Elasticity of Demand Analysis
 52. Promotional Time Series
 53. PySpark Advance Algorithms Practice Recommender Systems
 54. Regression Diagnostics Seattle Hotels Recommender
@@ -74,26 +76,30 @@
 72. LSTM Time Series Power Consumption for Diabetes
 73. Movies Recommendation system
 74. Language Translation Model using ML
-75. U.S. Gasoline and Diesel Retail Prices 1995
+75. US Gasoline and Diesel Retail Prices 1995
 76. Twitter Sentiment Analysis
 77. Image Captioning
 78. Sentiment Analysis for Tweets
-79. 911 Calls - Exploratory Analysis.
+79. 911 Calls - Exploratory Analysis
 80. General Election Poll Analysis
 81. Cross-Language Information Retrieval
 82. Digit Recognition Model
 83. Stock Market Analysis for Tech Stocks
-84. Time Series - Indian Nifty Next 25-day Performance Prediction.
-85. Introvert & Extrovert People Clustering based on Social media activity. 86. Image to Text Conversion & Extraction
+84. Time Series - Indian Nifty Next 25-day Performance Prediction
+85. Introvert & Extrovert People Clustering based on Social media activity
+86. Image to Text Conversion & Extraction
 87. Autoencoder Fashion MNIST
 88. Movie Recommendation Engine
 89. Spam Email Classification
 90. Traffic Sign Recognizer
-91. Forbes 100 Billionaires Wealth Spending Analysis.
-92. Online Payments Fraud Detection 93. Future Sales Prediction
-94. Waiter Tips Analysis & Prediction 95. Stock Price Prediction
+91. Forbes 100 Billionaires Wealth Spending Analysis
+92. Online Payments Fraud Detection 
+93. Future Sales Prediction
+94. Waiter Tips Analysis & Prediction 
+95. Stock Price Prediction
 96. Flipkart Reviews Sentiment Analysis
-97. Stock Price Prediction with LSTM Neural Network 98. Cryptocurrency Price Prediction for the next 30 days
+97. Stock Price Prediction with LSTM Neural Network 
+98. Cryptocurrency Price Prediction for the next 30 days
 99. Article Recommendation System
 100. Netflix Stock Price Prediction
 101. Time Series Analysis
@@ -114,7 +120,8 @@
 117. Squid Game Sentiment Analysis
 118. Comparison of Classification Algorithms
 119. Tata Motors Stock Price Prediction
-120. Health Insurance Premium Prediction 121.Movie Rating Analysis for Beginners
+120. Health Insurance Premium Prediction 
+121. Movie Rating Analysis for Beginners
 122. Number of Orders Prediction
 123. Apple Stock Price Prediction
 124. Insurance Prediction
@@ -133,7 +140,8 @@
 137. Uber Trips Analysis
 138. Google Search Analysis
 139. Tesla Stock Price Prediction Model
-140. Financial Budget Analysis 141.Click-Through Rate Prediction Model
+140. Financial Budget Analysis 
+141. Click-Through Rate Prediction Model
 142. Interactive Language Translator
 143. Language Detection
 144. Create a Chatbot with Python
@@ -183,18 +191,18 @@
 188. Printer Classification - Classify 1000 Printers by 4 Catgories
 189. Amazon Product - Main Image Identification
 190. Product Brand Prediction
-191. Deepfake Detection with .
-192. Predict US Elections with Python.
+191. Deepfake Detection with
+192. Predict US Elections with Python
 193. Fake Currency Detection with
-194. Predict Tinder Matches with Age and Gender Detection with Python Autocorrect Keyboard with Python and in 5 lines of code.
-195. Pencil Sketch with Python.
+194. Predict Tinder Matches with Age and Gender Detection with Python Autocorrect Keyboard with Python and in 5 lines of code
+195. Pencil Sketch with Python
 196. OpenAI Gym in
-197. Fraud Detection with .
+197. Fraud Detection with
 198. Topic Modeling with Python
 199. WhatsApp Group Chat Analysis
 200. Network Security Analysis
 201. Handwriting Recognition
-202. Visualize a Solar System with Python.
+202. Visualize a Solar System with Python
 203. Hate Speech Detection Model
 204. Learning Gladiator
 205. Time Series - Covid-19 Cases Predictions for Next 30 Days
@@ -223,7 +231,7 @@
 228. Titanic Dataset & Advanced Analysis
 229. Boston Housing Analysis
 230. Pneumonia Classification
-231. Gold Price Prediction.
+231. Gold Price Prediction
 232. Rain Fall Prediction
 233. IPL First Inning Score Predictor
 234. Live Smile Detector
@@ -234,7 +242,7 @@
 239. Time Series With LSTM
 240. Indian Cricket Team Player's Next Match Performance Prediction
 241. Titanic Survival Prediction
-242. Tracking of Covid-19 in Animals.
+242. Tracking of Covid-19 in Animals
 243. Traffic Sign Recognition
 244. Wine Quality Prediction
 245. Play Money Ball
@@ -319,7 +327,7 @@
 324. Learning Dota 2 Team Compositions
 325. Applying Deep Learning to derive insights about non-coding regions of the genome
 326. Classification of Higgs Jets as Decay Products of a Randall-Sundrum Graviton at the ATLAS Experiment
-327. SemenFertilityPrediction.Axel Guyon,Florence Koskas,Yoann Buratti
+327. SemenFertilityPrediction Axel Guyon,Florence Koskas,Yoann Buratti
 328. Sentiment Analysis Using Semi-Supervised Recursive Autoencoders and Support Vector Machines
 329. Classifying Syllables in Imagined Speech using EEG Data
 330. Abraham Starosta-Typeguess
@@ -337,14 +345,14 @@
 342. Sentiment Analysis on Movie Reviews
 343. Predicting Mobile Application Success
 344. Modeling Activity Recognition Using Physiological Data Collected from Wearable Technology
-345. Neural Network Joint Language Model.Charles Qi.[pdf]
+345. Neural Network Joint Language Model - Charles Qi
 346. Yelp Recommendation System Using Advanced Collaborative Filtering
 347. Prediction of Yelp Review Star Rating using Sentiment Analysis
 348. Classification of Bad Accounts in the Credit Card Industry
 349. Classification Of Musical Playing Styles
 350. Email Filtering By Response Required
 351. Forecasting Utilization in City Bike-Share Program
-352. Recommender.Christopher Aberger
+352. Recommender - Christopher Aberger
 353. Predicting Cell Type-Specific Chromatin States from Genetic Regulatory Networks
 354. Pose Estimation Based on 3D Models
 355. Visual Localization and POMDP for Autonomous Indoor Navigation
@@ -357,12 +365,13 @@
 362. Diagnosing Malignant versus Benign Breast Tumors via Techniques in High Dimensions
 363. Hacking the Hivemind
 364. Diagnosing Parkinson’s from Gait
-365. Implementing Algorithms on GPUs for Real-Time Traffic Sign Classification 366. Vignette
+365. Implementing Algorithms on GPUs for Real-Time Traffic Sign Classification 
+366. Vignette
 367. In JavaScript
 368. Searching for exoplanets in the Kepler public data
 369. Model Clustering via Group Lasso
 370. Improving Positron Emission Tomography Imaging with
-371. Algorithmic Trading of Futures via .David Montague
+371. Algorithmic Trading of Futures via - David Montague
 372. Topic-based comments exploration for online articles
 373. Personal Legal Counselor and Interpreter of the Law via
 374. Personalized Web Search
@@ -496,7 +505,7 @@
 502. Instrumental Solo Generator
 503. Cross-Domain Text Understanding in Online SocialData
 504. From Paragraphs to Vectors and Back Again
-505. handwriting recognition
+505. Handwriting recognition
 506. Chemical Identification with Chemical Sensor Arrays
 507. Genre Classification Using Graph Representations of Music
 508. Collaborative Filtering Recommender Systems
@@ -592,4 +601,5 @@
 598. A Computer-Aided Diagnosis System for Lung Cancer Detection using Machine
 599. Prediction of Diabetes and cancer using SVM
 600. Efficient Heart Disease Prediction System
-601. 
+601. Gym Partner Prediction
+602. 
