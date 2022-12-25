@@ -206,3 +206,4 @@ ML Wiki
 
 ### Interview Preparation
 - [120 ML Interview Questions](120-ml-interview-questions.md)
+- [1000 ML Project Ideas](1000-ml-project-ideas.md)
