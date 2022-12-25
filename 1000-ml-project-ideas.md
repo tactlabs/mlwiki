@@ -180,9 +180,9 @@
 185. Gold Price Prediction
 186. Object Detection
 187. Next Word Prediction Model
-188.
-189.
-190.
+188. Printer Classification - Classify 1000 Printers by 4 Catgories
+189. Amazon Product - Main Image Identification
+190. Product Brand Prediction
 191. Deepfake Detection with .
 192. Predict US Elections with Python.
 193. Fake Currency Detection with
@@ -206,7 +206,7 @@
 211. Covid-19 Telegram Bot with Python
 212. Covid-19 Detection with
 213. Covid-19 Death Rate Analysis with
-214.
+214. Learning Partner Prediction by using Learning Analytics Chrome Extension collection
 215. HealthCare - Heart Disease Prediction
 216. HealthCare - Skin Cancer Classification
 217. HealthCare -Lung Segmentation
@@ -470,7 +470,7 @@
 476. Artist Attribution via Song Lyrics
 477. Accelerometer Gesture Recognition
 478. Arrhythmia Classification for Heart Attack Prediction
-479. #ML#NLP-Autonomous Tagging Of Stack Overflow Posts
+479. NLP-Autonomous Tagging Of Stack Overflow Posts
 480. Scheduling Tasks Under Constraints
 481. Classification Of Beatles Authorship
 482. Classification of Accents of English Speakers by Native Language
@@ -592,5 +592,4 @@
 598. A Computer-Aided Diagnosis System for Lung Cancer Detection using Machine
 599. Prediction of Diabetes and cancer using SVM
 600. Efficient Heart Disease Prediction System
-
-
+601. 
