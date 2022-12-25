@@ -205,6 +205,7 @@ ML Wiki
 
 ## Article Archive
 - [Kalman Explained.md](articles/kalman-explained.md)
+- [Anamoly Detection.md](anamoly-detection.md)
 
 
 ### Interview Preparation
