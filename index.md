@@ -204,7 +204,7 @@ ML Wiki
 - [Random Feeds](random-feeds.md)
 
 ## Article Archive
-- [ML Articles](random-feeds.md)
+- [ML Articles](articles/index.md)
 
 
 ### Interview Preparation

@@ -11,7 +11,7 @@ If you are like me, equations do not speak for themselves. To understand them, I
 Nowadays, the Adam algorithm is a very popular choice. The Adam algorithm adds momentum and self-tuning of the learning rate to the plain-vanilla gradient descent algorithm. But what are momentum and self-tuning exactly?
 
 Below is a visual preview of what these concepts refer to:
-TBD
+![Optimization Algorigthms](articles/images/101.gif "Optimization Algorigthms")
 
 Linear Regression
 To keep things simple, I use different optimization algorithms on the bivariate linear regression model:
