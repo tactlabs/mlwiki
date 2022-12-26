@@ -11,7 +11,7 @@ If you are like me, equations do not speak for themselves. To understand them, I
 Nowadays, the Adam algorithm is a very popular choice. The Adam algorithm adds momentum and self-tuning of the learning rate to the plain-vanilla gradient descent algorithm. But what are momentum and self-tuning exactly?
 
 Below is a visual preview of what these concepts refer to:
-![Optimization Algorigthms](articles/images/101.gif "Optimization Algorigthms")
+![Optimization Algorigthms](images/101.gif "Optimization Algorigthms")
 
 Linear Regression
 To keep things simple, I use different optimization algorithms on the bivariate linear regression model:
@@ -30,11 +30,11 @@ Loss(a,b)=1/m||y-a-bx||²
 
 By changing the value of a and b, we can hopefully improve the fit of the model to the data. With the bivariate regression model, a good thing is that we can plot the value of the loss function as a function of the unknown parameters a and b. Below is a surface plot of the loss function, with the black dot representing the minimum of the loss.
 
-![ABC](articles/images/102.webp "ABC")
+![ABC](images/102.webp "ABC")
 
 We can also visualize the loss function using a contour plot, where the lines are level sets (points such that Loss(a,b) = constant). Below, the white point represents the minimum of the loss function.
 
-![ABC](articles/images/103.webp "ABC")
+![ABC](images/103.webp "ABC")
 
 *Gradient Descent*
 
@@ -45,13 +45,13 @@ In the next plot, I show one trajectory implied by the gradient descent algorith
 
 A key feature is that the gradient descent algorithm might create some oscillations between level sets. In a perfect world, we would like instead to move smoothly in the direction of the minimum. As we will see, adding momentum is one way to smooth the trajectory toward the minimum value.
 
-![ABC](articles/images/104.gif "ABC")
+![ABC](images/104.gif "ABC")
 
 *Gradient Descent with Momentum*
 
 Momentum refers to the tendency of moving objects to continue moving in the same direction. In practice, we can add momentum to gradient descent by taking into consideration previous values of the gradient. This can be done as follows:
 
-![ABC](articles/images/105.webp "ABC")
+![ABC](images/105.webp "ABC")
 
 The higher the value for γ, the more past values of the gradient are taken into consideration in the current update.
 
@@ -59,7 +59,7 @@ In the next plot, I show the trajectories implied by the gradient descent algori
 
 Momentum reduces the fluctuations along the value of the slope coefficient. The big swings up and down tend to cancel out once the averaging effects of momentum start to kick in. As a result, with momentum we move faster in the direction of the true value.
 
-![ABC](articles/images/107.gif "ABC")
+![ABC](images/107.gif "ABC")
 
 
 *RMSprop*
@@ -73,7 +73,7 @@ The first line just defines g to the be the gradient of the loss function. The s
 
 In our example, because the square of the gradient tends to be large for the slope coefficient, so we take small steps in that direction. The opposite is true for the intercept coefficient (small values, large moves).
 
-![ABC](articles/images/109.gif "ABC")
+![ABC](images/109.gif "ABC")
 
 *Adams*
 The Adam optimization algorithm has momentum, as well as the adaptive learning rate of RMSprop. Below is almost what Adam does:
@@ -85,7 +85,7 @@ The actual Adam updating rule uses “bias-corrected” value for m and v. In th
 
 Below, we see that the trajectory induced by Adam is somewhat similar to the one given by RMSprop, but with a slower start.
 
-![ABC](articles/images/112.gif "ABC")
+![ABC](images/112.gif "ABC")
 
 *The master plot*
 The next plot shows the trajectories induced by the four optimization algorithms described above.
@@ -96,11 +96,11 @@ Key results are as follows:
 * Adam and RMSprop take a different route, moving slower in the slope dimension and faster in the intercept dimension.
 * As expected, Adam displays some momentum: while RMSprop starts turning left towards the minimum, Adam has a harder time to turn because of the accumulated momentum.
 
-![ABC](articles/images/113.gif "ABC")
+![ABC](images/113.gif "ABC")
 
 Below is the same graph, but in 3d:
 
-![ABC](articles/images/114.gif "ABC")
+![ABC](images/114.gif "ABC")
 
 *Conclusion*
 In this blog post, my aim was for the reader to build an intuitive understanding of key optimization algorithms used in machine learning.
