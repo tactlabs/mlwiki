@@ -85,3 +85,5 @@ Key takeaways
 ✓ In image processing, the pixel information in real space is transformed into pixel information in the reciprocal (spatial frequency) space.
 
 ✓ Fourier filters can precisely detect features in micrographs both qualitatively and quantitatively.
+
+https://towardsdatascience.com/fast-fourier-transforms-for-microstructural-analysis-9663ddfa9931
