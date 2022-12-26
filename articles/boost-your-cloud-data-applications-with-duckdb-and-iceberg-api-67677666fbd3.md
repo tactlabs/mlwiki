@@ -4,7 +4,7 @@
 
 **Note:** Use Iceberg API with DuckDB to optimize analytics queries on massive Iceberg tables in your cloud storage
 
-1. *Intro*
+#### 1. Intro
 Apache Iceberg is mostly known for making it possible for popular query engines, such as Spark, Dremio and Trino, to reliably query and manipulate records in huge tables stored in data lakes, and to do so in scale while ensuring safe concurrent reads and writes. As such, it addresses some of the major concerns that characterize modern data-lake platforms, such as data integrity, performance, maintenance, and cost.
 
 Much of what enables Iceberg’s magic is the way it efficiently organizes the table’s metadata, as well as tracking its data files, their statistics, and their version history. This is also what makes queries on Iceberg tables much faster and involving less data scan. Queries on tables that do not use or save file-level metadata (e.g., Hive) typically involve costly list and scan operations, just to figure out the relevant data files over which the query needs to run. In contrast, when the data that we need in order to satisfy a query lies in a specific set of files, then Iceberg’s can in principle tell us this immediately without even scanning a single data file.
@@ -21,7 +21,7 @@ This post will proceed as follows: Section 2 shows and explains the relevant use
 
 (I should point out at the outset that I mostly use Scala in the code examples though it relies on Iceberg’s Java API and can be easily ported)
 
-2. *The problem (and solution) in a nutshell*
+#### 2. The problem (and solution) in a nutshell
 We have a massive iceberg table that is partitioned by date, and contains event data streamed from our customers. Each event is identified by a field named account_id, contains a bunch of counters, and an event_type field. Because most data consumers typically add the account_id to their WHERE clause, we decided to sort the files in each partition by account_id ( this is an important bit here. I will explain more shortly).
 
 The requirement is to create a service that will tell us how many events a given customer had over a specific day. The service will receive a certain date as a parameter, as well as an account id, and will return an aggregation by event_type (in JSON format). In short, the service needs to run something like the following query:
@@ -43,7 +43,7 @@ As for the way we are going to run these queries over the parquet files, I have 
 
 So now we can conclude the flow of our service (see diagram below): the service will be invoked with a date variable and an account_id. Next, we call Iceberg API to query the table’s metadata for data files that are relevant to our query. Finally, after we get the list of files, we create and execute a DuckDB query statement that will also format the result set in JSON (a neat DuckDB feature) and return them to the caller.
 
-3. *Filtering using Iceberg API*
+#### 3. Filtering using Iceberg API
 If you need a good intro to Iceberg API, then feel free to check some of the links at the bottom of the post, though I believe that the code is simple enough even if you know very little about Iceberg.
 
 The first thing we do is create a filtering Expression object that Iceberg will use in order to query the table metadata for the files that contain data that match our filter. You can chain expressions, as well as combine them as I did below.
@@ -94,7 +94,7 @@ private def getDataFilesLocations(tableScan:TableScan): Try[String] = Try {
 
 This sums up our service’s usage of the Iceberg API. We start with a Catalog, and using an Expression filter initiate a table-scan that uses our table’s metadata to determine the files that are relevant to our query.
 
-4. *Querying with DuckDB*
+#### 4. Querying with DuckDB
 DuckDB is an increasingly popular in-process OLAP database that excels in running aggregate queries on a variety of data sources. DuckDB differs from similar products (such as SQLite) in the performance it offers to OLAP queries, as well as in the flexibility it provides. In short, it is essentially an in-process mini-DWH that enables us to run aggregation-heavy queries on relatively large datasets.
 
 However, some datasets are just too large for the kind of machines or pods we have available or that we want to use. And, that’s exactly what makes the combination of DuckDB with Iceberg a very powerful one — with Iceberg API we can run queries on much less data in much less time.
@@ -141,7 +141,7 @@ private def formatQuery(query:String, dataFilesStr:String):Try[String]  = Try {
 
 That settles the core of our service on the query side. After we get the list files, we just need to make sure DuckDB is properly initialized, format the query and execute it.
 
-5. *Putting it all together*
+#### 5. Putting it all together
 As mentioned earlier, the processing logic of our service involves 2 main stages that unfold in 7 steps detailed in the code block below (Scala’s for comprehension actually makes this pretty straightforward).
 
 ```
@@ -174,7 +174,7 @@ Iceberg API is first used to obtain table reference and execute a table scan tha
 
 As you can see, the query template above is wrapped in a row_to_json function that transforms the result set into a JSON document, which is what we wanted to achieve.
 
-6. *Conclusion*
+#### 6. Conclusion
 Apache Iceberg is quickly becoming a standard for metadata management and organization of massive data lake tables. Therefore, it is not surprising that popular query engines, such as Impala, Spark, and Trino, as well as public cloud providers, were fast to announce their support in the Iceberg table format and API.
 
 The purpose of this post was to demonstrate a powerful way in which data applications can take advantage of the benefits offered by Iceberg tables independently of a hefty query engine. It showed how we can use Iceberg’s API together with DuckDB in order to create light weight though powerful data applications that can run efficient queries on massive tables. We saw that by using the API exposed by Iceberg, we can essentially create an “optimized” query, which only scans the files relevant for the query. The ease in which DuckDB can be used to run queries over parquet files stored in cloud storage makes the combination of the two an extremely powerful one, and highlights the potential in the Iceberg table format and its features.
