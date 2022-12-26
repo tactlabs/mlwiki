@@ -204,8 +204,7 @@ ML Wiki
 - [Random Feeds](random-feeds.md)
 
 ## Article Archive
-- [Kalman Explained](articles/kalman-explained.md)
-- [Anamoly Detection](anamoly-detection.md)
+- [ML Articles](random-feeds.md)
 
 
 ### Interview Preparation
