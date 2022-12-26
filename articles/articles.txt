@@ -1,0 +1,199 @@
+1. https://towardsdatascience.com/a-visual-approach-to-gradient-descent-and-other-optimization-algorithms-c82f45b7fc87
+
+2. https://towardsdatascience.com/boost-your-cloud-data-applications-with-duckdb-and-iceberg-api-67677666fbd3
+
+3. https://towardsdatascience.com/dealing-with-dicom-using-imageio-python-package-117f1212ab82
+
+4. https://towardsdatascience.com/dense-vectors-capturing-meaning-with-code-88fc18bd94b9
+
+5. https://towardsdatascience.com/how-do-you-know-if-your-classification-model-is-any-good-6977ebc87798
+
+6. https://towardsdatascience.com/understanding-bias-variance-trade-off-from-a-bayesian-perspective-6c31645fcaa9
+
+7. https://towardsdatascience.com/an-overview-of-various-ways-to-work-with-your-json-data-in-python-772b53c9d06a
+
+8. https://towardsdatascience.com/tips-and-tricks-for-loading-large-csv-files-into-pandas-dataframes-part-2-5fc02fc4e3ab
+
+9. https://towardsdatascience.com/build-a-full-stack-ml-application-with-pydantic-and-prefect-915f00fe0c62
+
+10. https://towardsdatascience.com/a-zero-etl-future-83c0d377ad95
+
+11. https://towardsdatascience.com/fast-fourier-transforms-for-microstructural-analysis-9663ddfa9931
+
+12. https://towardsdatascience.com/how-to-choose-a-forecasting-model-fa9c4a2e75b8
+
+13. https://towardsdatascience.com/count-distinct-metrics-at-scale-95a394c03f1
+
+14. https://towardsdatascience.com/14-requirements-to-make-your-machine-learning-project-a-success-part-i-80c288be503d
+
+15. https://towardsdatascience.com/introduction-to-numpy-arrays-c0a1082afadd
+
+16. https://towardsdatascience.com/transfer-learning-the-secret-weapon-for-boosting-your-ml-models-2fc35c83709a
+
+17. https://towardsdatascience.com/what-are-tensors-in-machine-learning-5671814646ff
+
+18. https://towardsdatascience.com/using-python-to-interact-with-excel-plaxis-input-a2124f6ebc72
+
+19. https://towardsdatascience.com/how-to-create-a-data-quality-framework-6887dea268ae
+
+20. https://towardsdatascience.com/dimensionality-reduction-for-linearly-inseparable-data-5030f0dc0f5e
+
+21. https://towardsdatascience.com/streamlit-color-picker-widget-an-easy-way-to-change-chart-colours-7929973393ea
+
+22. https://towardsdatascience.com/how-to-take-your-sql-from-zero-to-data-scientist-level-part-2-3-bc1cbb48299e	
+
+23. https://towardsdatascience.com/convert-jupyter-notebooks-into-functions-6fbda7b18419
+
+24. https://towardsdatascience.com/natural-language-process-for-judicial-sentences-with-python-9462c15c2a64	
+
+25. https://towardsdatascience.com/how-to-detect-heteroskedasticity-in-time-series-3413a8aa8da9
+
+26. https://towardsdatascience.com/fast-fourier-transforms-for-microstructural-analysis-9663ddfa9931
+
+27. https://towardsdatascience.com/how-to-prepare-data-for-k-fold-cross-validation-in-machine-learning-924a44ec322c
+
+28. https://towardsdatascience.com/physics-guided-machine-learning-model-for-uncertainty-prediction-1e3b733fd798
+
+29. https://towardsdatascience.com/unsupervised-learning-and-k-means-clustering-from-scratch-f4e5e9947c39
+
+30. https://towardsdatascience.com/geospatial-index-101-df2c011da04b
+
+31. https://towardsdatascience.com/a-day-in-the-life-of-a-data-scientist-938d917370b9
+
+32. https://towardsdatascience.com/time-series-forecasting-with-holt-winters-b78ffc322f24
+
+33. https://towardsdatascience.com/nlp-and-customer-funnel-using-pyspark-to-weight-events-d5ff8d2f61b4
+
+34. https://towardsdatascience.com/why-data-scientists-love-gaussian-6e7a7b726859
+
+35. https://towardsdatascience.com/foundational-rl-dynamic-programming-28f96f6fb40e
+
+36. https://towardsdatascience.com/train-yolo-for-object-detection-on-a-custom-dataset-using-python-e4fe5eb94673
+
+37. https://towardsdatascience.com/4-techniques-for-scaling-pandas-to-large-datasets-acf8805d30eb
+
+38. https://towardsdatascience.com/modern-llms-mt-nlg-chinchilla-gopher-and-more-5053cfea8178
+
+39. https://towardsdatascience.com/review-of-reinforcement-learning-papers-14-70b6772a8100
+
+40. https://towardsdatascience.com/media-mix-modeling-how-to-measure-the-effectiveness-of-advertising-with-python-lightweightmmm-b6d7de110ae6
+
+41. https://towardsdatascience.com/8-tips-for-creating-data-visualizations-in-python-using-bokeh-d7a01701503d
+
+42. https://towardsdatascience.com/have-you-ever-tested-your-data-pipelines-165e31fd87d8 
+
+43. https://towardsdatascience.com/improve-image-classification-robustness-with-augmix-59e5d6436255
+
+44. https://towardsdatascience.com/easy-parquet-tutorial-best-practices-237955e46cb7
+
+45. https://towardsdatascience.com/its-the-data-that-should-surprise-you-not-the-p-values-79fce3963d35
+
+46. https://towardsdatascience.com/dict-to-pandas-df-29ba731fc256
+
+47. https://towardsdatascience.com/how-to-use-python-lambdas-8d141e378ce
+
+48. https://towardsdatascience.com/a-differential-privacy-example-for-beginners-ef3c23f69401
+
+49. https://towardsdatascience.com/how-to-create-a-virtual-environment-and-use-it-on-jupyter-notebook-6c0b7b1cfca0
+
+50. https://towardsdatascience.com/boost-your-ml-teams-productivity-with-container-based-development-in-the-cloud-56aa35552776
+
+51. https://towardsdatascience.com/natural-language-process-for-judicial-sentences-with-python-e6a01e30a675
+
+52. https://towardsdatascience.com/introduction-to-word2vec-skip-gram-cb3e9533bcf1
+
+53. https://towardsdatascience.com/serving-tensorrt-models-with-nvidia-triton-inference-server-5b68cc141d19
+
+54. https://towardsdatascience.com/how-to-version-gigabyte-sized-datasets-just-like-code-with-dvc-in-python-5197662e85bd
+
+55. https://towardsdatascience.com/ace-your-machine-learning-interview-part-9-2fd782b4bb8
+
+56. https://towardsdatascience.com/how-to-be-an-effective-data-science-manager-dbdea96b783c
+
+57. https://towardsdatascience.com/probabilistic-vs-deterministic-regression-with-tensorflow-85ef791beeef
+
+58. https://towardsdatascience.com/polynomial-autoregression-improve-your-forecasts-in-2-minutes-746d8b57d896
+
+59. https://towardsdatascience.com/coding-your-own-gif-creator-project-with-python-3c3c1348dfb0
+
+60. https://towardsdatascience.com/fine-tune-transformer-models-for-question-answering-on-custom-data-513eaac37a80
+
+61. https://towardsdatascience.com/in-data-science-the-best-way-to-learn-is-by-doing-6d16e38d7f1a
+
+62. https://towardsdatascience.com/an-unbiased-guide-to-bias-in-ai-3841c2b36165
+
+63. https://towardsdatascience.com/how-big-should-your-sample-size-be-54ab2154c152
+
+64. https://towardsdatascience.com/dynamodb-go-sdk-how-to-use-the-scan-and-batch-operations-efficiently-5b41988b4988
+
+65. https://towardsdatascience.com/one-vs-all-logistic-regression-for-image-recognition-in-python-5d290ce64ad7
+
+66. https://towardsdatascience.com/hands-on-topic-modeling-with-python-1e3466d406d7
+
+67. https://towardsdatascience.com/let-us-extract-some-topics-from-text-data-part-iii-non-negative-matrix-factorization-nmf-8eba8c8edada
+
+68. https://towardsdatascience.com/solving-optimization-problems-with-a-quantum-computer-is-surprisingly-easy-b89afd3bbbb3
+
+69. https://towardsdatascience.com/the-starters-guide-to-release-your-python-package-in-pypi-efd72cbc0011
+
+70. https://towardsdatascience.com/what-is-overfitting-in-machine-learning-dc7e4de1c892
+
+71. https://towardsdatascience.com/hands-on-sentiment-analysis-on-hotels-reviews-using-artificial-intelligence-and-open-ais-chatgpt-d1939850c79e
+
+72. https://towardsdatascience.com/time-series-forecasting-with-conformal-prediction-intervals-scikit-learn-is-all-you-need-4b68143a027a
+
+73. https://towardsdatascience.com/practical-data-science-promotion-effectiveness-and-promotion-planning-part-3-7207deeacc49
+
+74. https://towardsdatascience.com/to-make-an-impact-in-any-industry-domain-knowledge-is-critical-bdd93a304a1d 
+
+75. https://towardsdatascience.com/univariate-analysis-intro-and-implementation-b9d1e07e5c16
+
+76. https://towardsdatascience.com/understanding-kolmogorov-smirnov-ks-tests-for-data-drift-on-profiled-data-5c8317796f78
+
+77. https://towardsdatascience.com/practical-data-science-promotion-effectiveness-and-promotion-planning-part-3-7207deeacc49
+
+78. https://towardsdatascience.com/some-basic-image-preprocessing-operations-for-beginners-in-python-7d297316853b
+
+79. https://towardsdatascience.com/python-magic-methods-you-havent-heard-about-53d11eba448f
+
+80. https://towardsdatascience.com/workloads-in-data-engineering-4dd10c7a0462
+
+81. https://towardsdatascience.com/artificial-intelligence-for-geospatial-analysis-with-pytorchs-torchgeo-part-3-7521131f30b1
+
+82. https://towardsdatascience.com/a-brief-introduction-to-neural-networks-a-regression-problem-c58c26e18008
+
+83. https://towardsdatascience.com/a-comprehensive-guide-to-moderating-sensitive-audio-content-d9e1f882fd06
+
+84. https://towardsdatascience.com/most-common-text-processing-tasks-in-natural-language-processing-d8cd7a076b79
+
+85. https://towardsdatascience.com/a-detailed-guide-for-building-hardware-accelerated-mlops-pipelines-in-sagemaker-5d32459665b3
+
+86. https://towardsdatascience.com/a-note-about-ai-generated-text-4ce3be86f599
+
+87. https://towardsdatascience.com/guide-to-implementing-custom-accelerated-ai-libraries-in-sagemaker-with-oneapi-and-docker-97547692cb6e
+
+88. https://towardsdatascience.com/guide-to-building-aws-lambda-functions-from-ecr-images-to-manage-sagemaker-inference-endpoints-4980a9b92290
+
+89. https://towardsdatascience.com/dynamic-eda-for-qatar-world-cup-teams-8945970f16be
+
+90. https://towardsdatascience.com/4x-faster-pandas-operations-with-minimal-code-change-bc7079792184
+
+91. https://towardsdatascience.com/how-to-find-the-right-machine-learning-team-97a4b56fbbb7
+
+92. https://towardsdatascience.com/monte-carlo-cross-validation-for-time-series-ed01c41e2995
+
+93. https://towardsdatascience.com/forecasting-with-holts-linear-trend-exponential-smoothing-af2aa4590c18
+
+94. https://towardsdatascience.com/3-ways-to-aggregate-data-in-pyspark-72209197c90
+
+95. https://towardsdatascience.com/my-data-science-job-search-6deb4117e7b5
+
+96. https://towardsdatascience.com/build-docker-image-for-jupyter-notebook-and-run-on-clouds-vertexai-9bd97c48c52d
+
+97. https://towardsdatascience.com/top-five-clustering-algorithms-you-should-know-instead-of-k-means-clustering-b22f25e5bfb4
+
+98. https://towardsdatascience.com/foundational-rl-solving-markov-decision-process-d90b7e134c0b
+
+99. https://towardsdatascience.com/everything-about-python-numeric-data-types-beginners-guide-e377c2f76c0
+
+100. https://towardsdatascience.com/overfitting-in-ml-avoiding-the-pitfalls-d5225b7118d
