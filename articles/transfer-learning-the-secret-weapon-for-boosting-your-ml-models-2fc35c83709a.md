@@ -1,4 +1,4 @@
-/ [Home](../index.md)
+/ [Home](../index.md) / [ML Archve](index.md)
 
 # Transfer Learning: The Secret Weapon for Boosting Your ML Models
 
@@ -16,7 +16,7 @@ By the end of this article, you’ll have a good understanding of how transfer l
 
 **Learning Rate is a newsletter for those who are curious about the world of AI and MLOps. You’ll hear from me on the first Saturday of every month with updates and thoughts on the latest AI news and articles. Subscribe here!**
 
-Transfer Learning in Computer Vision
+#### Transfer Learning in Computer Vision
 Transfer learning is a powerful technique that can be used in computer vision to improve the performance of machine learning models and reduce training times. As we saw before, it involves using the knowledge gained from a previously trained model and applying it to a new, related problem.
 
 In the context of computer vision, transfer learning can be used to fine-tune a pre-trained model on a new dataset or to train a new model using a smaller dataset. This can be particularly useful when dealing with small or specialized datasets, where it may be difficult to train a model from scratch due to a lack of data.
