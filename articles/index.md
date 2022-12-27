@@ -10,3 +10,4 @@
 - [Fast Fourier Transforms for Microstructural Analysis](fast-fourier-transforms-for-microstructural-analysis-9663ddfa9931.md)
 - [How to Choose a Forecasting Model](how-to-choose-a-forecasting-model-fa9c4a2e75b8.md)
 - [Transfer Learning: The Secret Weapon for Boosting Your ML Models](transfer-learning-the-secret-weapon-for-boosting-your-ml-models-2fc35c83709a.md)
+- [What are Tensors in Machine Learning?](what-are-tensors-in-machine-learning-5671814646ff.md)
