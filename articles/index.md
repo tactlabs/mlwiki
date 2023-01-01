@@ -11,3 +11,5 @@
 - [How to Choose a Forecasting Model](how-to-choose-a-forecasting-model-fa9c4a2e75b8.md)
 - [Transfer Learning: The Secret Weapon for Boosting Your ML Models](transfer-learning-the-secret-weapon-for-boosting-your-ml-models-2fc35c83709a.md)
 - [What are Tensors in Machine Learning?](what-are-tensors-in-machine-learning-5671814646ff.md)
+- [Using Python to Interact With Excel (PLAXIS Input)](using-python-to-interact-with-excel-plaxis-input-a2124f6ebc72.md)
+- [How to Create a Data Quality Framework](how-to-create-a-data-quality-framework-6887dea268ae.md)
